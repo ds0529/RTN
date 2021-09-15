@@ -1,5 +1,15 @@
 ## Part segmentation
 
+### Data prepare
+
+Download the ShapenetPart dataset:
+
+```
+sh download_data.sh
+```
+
+, and put the folders `shapenet_hdf5_data` and `shapenet_PartAnnotation` to `$your_data_folder`.
+
 ### Train
 
 Train the RTN. 

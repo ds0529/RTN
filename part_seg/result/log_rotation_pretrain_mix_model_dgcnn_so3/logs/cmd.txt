@@ -1,0 +1,1 @@
+Namespace(batch=12, epoch=201, num_gpu=2, output_dir='result/log_rotation_pretrain_so3_30_30', point_num=2048, transformer_model='learning_rotation_nets_mix_model', transformer_model_path='result/log_learning_rotation_so3_30_30/best_model.ckpt', wd=0)

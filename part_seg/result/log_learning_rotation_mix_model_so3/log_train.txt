@@ -1,0 +1,6907 @@
+Namespace(batch_size=32, decay_rate=0.7, decay_step=200000, gpu=0, learning_rate=0.001, log_dir='result/log_learning_rotation_so3_30_30', max_epoch=400, model='learning_rotation_nets_mix_model', momentum=0.9, num_point=1024, optimizer='adam')
+**** EPOCH 000 ****
+----0-----
+mean loss: 6.430256
+----1-----
+mean loss: 6.169855
+----2-----
+mean loss: 6.060597
+----3-----
+mean loss: 5.991507
+----4-----
+mean loss: 5.806371
+----5-----
+mean loss: 5.652435
+----0-----
+eval mean loss: 5.641916
+Best Model saved in file: result/log_learning_rotation_so3_30_30/best_model.ckpt
+min eval loss: 5.641916
+the epoch of min eval loss: 0
+Model saved in file: result/log_learning_rotation_so3_30_30/model.ckpt
+**** EPOCH 001 ****
+----0-----
+mean loss: 5.592396
+----1-----
+mean loss: 5.534455
+----2-----
+mean loss: 5.426529
+----3-----
+mean loss: 5.382847
+----4-----
+mean loss: 5.313882
+----5-----
+mean loss: 5.220528
+----0-----
+eval mean loss: 5.077982
+Best Model saved in file: result/log_learning_rotation_so3_30_30/best_model.ckpt
+min eval loss: 5.077982
+the epoch of min eval loss: 1
+**** EPOCH 002 ****
+----0-----
+mean loss: 5.192387
+----1-----
+mean loss: 5.108936
+----2-----
+mean loss: 5.118354
+----3-----
+mean loss: 5.056198
+----4-----
+mean loss: 5.001623
+----5-----
+mean loss: 4.926635
+----0-----
+eval mean loss: 4.922581
+Best Model saved in file: result/log_learning_rotation_so3_30_30/best_model.ckpt
+min eval loss: 4.922581
+the epoch of min eval loss: 2
+**** EPOCH 003 ****
+----0-----
+mean loss: 4.900883
+----1-----
+mean loss: 4.885006
+----2-----
+mean loss: 4.847809
+----3-----
+mean loss: 4.840076
+----4-----
+mean loss: 4.779570
+----5-----
+mean loss: 4.750064
+----0-----
+eval mean loss: 4.615507
+Best Model saved in file: result/log_learning_rotation_so3_30_30/best_model.ckpt
+min eval loss: 4.615507
+the epoch of min eval loss: 3
+**** EPOCH 004 ****
+----0-----
+mean loss: 4.699984
+----1-----
+mean loss: 4.705880
+----2-----
+mean loss: 4.677860
+----3-----
+mean loss: 4.703830
+----4-----
+mean loss: 4.574852
+----5-----
+mean loss: 4.606126
+----0-----
+eval mean loss: 4.411179
+Best Model saved in file: result/log_learning_rotation_so3_30_30/best_model.ckpt
+min eval loss: 4.411179
+the epoch of min eval loss: 4
+**** EPOCH 005 ****
+----0-----
+mean loss: 4.538002
+----1-----
+mean loss: 4.510746
+----2-----
+mean loss: 4.523754
+----3-----
+mean loss: 4.543130
+----4-----
+mean loss: 4.485353
+----5-----
+mean loss: 4.357429
+----0-----
+eval mean loss: 4.277851
+Best Model saved in file: result/log_learning_rotation_so3_30_30/best_model.ckpt
+min eval loss: 4.277851
+the epoch of min eval loss: 5
+**** EPOCH 006 ****
+----0-----
+mean loss: 4.394578
+----1-----
+mean loss: 4.361136
+----2-----
+mean loss: 4.323715
+----3-----
+mean loss: 4.360056
+----4-----
+mean loss: 4.264484
+----5-----
+mean loss: 4.269870
+----0-----
+eval mean loss: 4.092697
+Best Model saved in file: result/log_learning_rotation_so3_30_30/best_model.ckpt
+min eval loss: 4.092697
+the epoch of min eval loss: 6
+**** EPOCH 007 ****
+----0-----
+mean loss: 4.298535
+----1-----
+mean loss: 4.255188
+----2-----
+mean loss: 4.219589
+----3-----
+mean loss: 4.299347
+----4-----
+mean loss: 4.181200
+----5-----
+mean loss: 4.172252
+----0-----
+eval mean loss: 4.060631
+Best Model saved in file: result/log_learning_rotation_so3_30_30/best_model.ckpt
+min eval loss: 4.060631
+the epoch of min eval loss: 7
+**** EPOCH 008 ****
+----0-----
+mean loss: 4.189710
+----1-----
+mean loss: 4.128978
+----2-----
+mean loss: 4.159724
+----3-----
+mean loss: 4.174681
+----4-----
+mean loss: 4.148770
+----5-----
+mean loss: 4.070530
+----0-----
+eval mean loss: 3.963822
+Best Model saved in file: result/log_learning_rotation_so3_30_30/best_model.ckpt
+min eval loss: 3.963822
+the epoch of min eval loss: 8
+**** EPOCH 009 ****
+----0-----
+mean loss: 4.083022
+----1-----
+mean loss: 4.092410
+----2-----
+mean loss: 4.099575
+----3-----
+mean loss: 4.100838
+----4-----
+mean loss: 4.121787
+----5-----
+mean loss: 4.048026
+----0-----
+eval mean loss: 3.931021
+Best Model saved in file: result/log_learning_rotation_so3_30_30/best_model.ckpt
+min eval loss: 3.931021
+the epoch of min eval loss: 9
+**** EPOCH 010 ****
+----0-----
+mean loss: 4.061054
+----1-----
+mean loss: 4.015098
+----2-----
+mean loss: 4.000862
+----3-----
+mean loss: 4.008552
+----4-----
+mean loss: 4.010471
+----5-----
+mean loss: 4.005021
+----0-----
+eval mean loss: 3.855592
+Best Model saved in file: result/log_learning_rotation_so3_30_30/best_model.ckpt
+min eval loss: 3.855592
+the epoch of min eval loss: 10
+Model saved in file: result/log_learning_rotation_so3_30_30/model.ckpt
+**** EPOCH 011 ****
+----0-----
+mean loss: 3.977801
+----1-----
+mean loss: 3.988904
+----2-----
+mean loss: 3.969471
+----3-----
+mean loss: 3.965794
+----4-----
+mean loss: 3.957250
+----5-----
+mean loss: 3.897126
+----0-----
+eval mean loss: 3.799446
+Best Model saved in file: result/log_learning_rotation_so3_30_30/best_model.ckpt
+min eval loss: 3.799446
+the epoch of min eval loss: 11
+**** EPOCH 012 ****
+----0-----
+mean loss: 3.945221
+----1-----
+mean loss: 3.841096
+----2-----
+mean loss: 3.925015
+----3-----
+mean loss: 3.918444
+----4-----
+mean loss: 3.913657
+----5-----
+mean loss: 3.918307
+----0-----
+eval mean loss: 3.762791
+Best Model saved in file: result/log_learning_rotation_so3_30_30/best_model.ckpt
+min eval loss: 3.762791
+the epoch of min eval loss: 12
+**** EPOCH 013 ****
+----0-----
+mean loss: 3.875913
+----1-----
+mean loss: 3.886137
+----2-----
+mean loss: 3.886993
+----3-----
+mean loss: 3.886812
+----4-----
+mean loss: 3.872230
+----5-----
+mean loss: 3.867911
+----0-----
+eval mean loss: 3.737083
+Best Model saved in file: result/log_learning_rotation_so3_30_30/best_model.ckpt
+min eval loss: 3.737083
+the epoch of min eval loss: 13
+**** EPOCH 014 ****
+----0-----
+mean loss: 3.840026
+----1-----
+mean loss: 3.864871
+----2-----
+mean loss: 3.868925
+----3-----
+mean loss: 3.845855
+----4-----
+mean loss: 3.829237
+----5-----
+mean loss: 3.806647
+----0-----
+eval mean loss: 3.691737
+Best Model saved in file: result/log_learning_rotation_so3_30_30/best_model.ckpt
+min eval loss: 3.691737
+the epoch of min eval loss: 14
+**** EPOCH 015 ****
+----0-----
+mean loss: 3.802145
+----1-----
+mean loss: 3.800538
+----2-----
+mean loss: 3.790943
+----3-----
+mean loss: 3.839514
+----4-----
+mean loss: 3.813559
+----5-----
+mean loss: 3.765841
+----0-----
+eval mean loss: 3.606473
+Best Model saved in file: result/log_learning_rotation_so3_30_30/best_model.ckpt
+min eval loss: 3.606473
+the epoch of min eval loss: 15
+**** EPOCH 016 ****
+----0-----
+mean loss: 3.795495
+----1-----
+mean loss: 3.784298
+----2-----
+mean loss: 3.726934
+----3-----
+mean loss: 3.746877
+----4-----
+mean loss: 3.710622
+----5-----
+mean loss: 3.665826
+----0-----
+eval mean loss: 3.507782
+Best Model saved in file: result/log_learning_rotation_so3_30_30/best_model.ckpt
+min eval loss: 3.507782
+the epoch of min eval loss: 16
+**** EPOCH 017 ****
+----0-----
+mean loss: 3.702779
+----1-----
+mean loss: 3.684360
+----2-----
+mean loss: 3.651680
+----3-----
+mean loss: 3.694761
+----4-----
+mean loss: 3.698181
+----5-----
+mean loss: 3.648327
+----0-----
+eval mean loss: 3.505034
+Best Model saved in file: result/log_learning_rotation_so3_30_30/best_model.ckpt
+min eval loss: 3.505034
+the epoch of min eval loss: 17
+**** EPOCH 018 ****
+----0-----
+mean loss: 3.645822
+----1-----
+mean loss: 3.648533
+----2-----
+mean loss: 3.638519
+----3-----
+mean loss: 3.642249
+----4-----
+mean loss: 3.646535
+----5-----
+mean loss: 3.607824
+----0-----
+eval mean loss: 3.519066
+min eval loss: 3.505034
+the epoch of min eval loss: 17
+**** EPOCH 019 ****
+----0-----
+mean loss: 3.661768
+----1-----
+mean loss: 3.634326
+----2-----
+mean loss: 3.614239
+----3-----
+mean loss: 3.645486
+----4-----
+mean loss: 3.649125
+----5-----
+mean loss: 3.549405
+----0-----
+eval mean loss: 3.474267
+Best Model saved in file: result/log_learning_rotation_so3_30_30/best_model.ckpt
+min eval loss: 3.474267
+the epoch of min eval loss: 19
+**** EPOCH 020 ****
+----0-----
+mean loss: 3.586920
+----1-----
+mean loss: 3.602771
+----2-----
+mean loss: 3.604755
+----3-----
+mean loss: 3.629242
+----4-----
+mean loss: 3.607472
+----5-----
+mean loss: 3.563400
+----0-----
+eval mean loss: 3.406350
+Best Model saved in file: result/log_learning_rotation_so3_30_30/best_model.ckpt
+min eval loss: 3.406350
+the epoch of min eval loss: 20
+Model saved in file: result/log_learning_rotation_so3_30_30/model.ckpt
+**** EPOCH 021 ****
+----0-----
+mean loss: 3.589965
+----1-----
+mean loss: 3.556517
+----2-----
+mean loss: 3.566232
+----3-----
+mean loss: 3.595196
+----4-----
+mean loss: 3.593013
+----5-----
+mean loss: 3.540893
+----0-----
+eval mean loss: 3.430711
+min eval loss: 3.406350
+the epoch of min eval loss: 20
+**** EPOCH 022 ****
+----0-----
+mean loss: 3.592282
+----1-----
+mean loss: 3.580743
+----2-----
+mean loss: 3.582110
+----3-----
+mean loss: 3.607853
+----4-----
+mean loss: 3.557261
+----5-----
+mean loss: 3.551413
+----0-----
+eval mean loss: 3.436573
+min eval loss: 3.406350
+the epoch of min eval loss: 20
+**** EPOCH 023 ****
+----0-----
+mean loss: 3.576507
+----1-----
+mean loss: 3.533375
+----2-----
+mean loss: 3.518621
+----3-----
+mean loss: 3.592345
+----4-----
+mean loss: 3.544768
+----5-----
+mean loss: 3.518069
+----0-----
+eval mean loss: 3.362165
+Best Model saved in file: result/log_learning_rotation_so3_30_30/best_model.ckpt
+min eval loss: 3.362165
+the epoch of min eval loss: 23
+**** EPOCH 024 ****
+----0-----
+mean loss: 3.539946
+----1-----
+mean loss: 3.539563
+----2-----
+mean loss: 3.539835
+----3-----
+mean loss: 3.585809
+----4-----
+mean loss: 3.536583
+----5-----
+mean loss: 3.479731
+----0-----
+eval mean loss: 3.416477
+min eval loss: 3.362165
+the epoch of min eval loss: 23
+**** EPOCH 025 ****
+----0-----
+mean loss: 3.519464
+----1-----
+mean loss: 3.525720
+----2-----
+mean loss: 3.535564
+----3-----
+mean loss: 3.558556
+----4-----
+mean loss: 3.544479
+----5-----
+mean loss: 3.491782
+----0-----
+eval mean loss: 3.404876
+min eval loss: 3.362165
+the epoch of min eval loss: 23
+**** EPOCH 026 ****
+----0-----
+mean loss: 3.486666
+----1-----
+mean loss: 3.513945
+----2-----
+mean loss: 3.536999
+----3-----
+mean loss: 3.496407
+----4-----
+mean loss: 3.517218
+----5-----
+mean loss: 3.467437
+----0-----
+eval mean loss: 3.333990
+Best Model saved in file: result/log_learning_rotation_so3_30_30/best_model.ckpt
+min eval loss: 3.333990
+the epoch of min eval loss: 26
+**** EPOCH 027 ****
+----0-----
+mean loss: 3.493874
+----1-----
+mean loss: 3.485906
+----2-----
+mean loss: 3.492750
+----3-----
+mean loss: 3.546516
+----4-----
+mean loss: 3.480979
+----5-----
+mean loss: 3.448539
+----0-----
+eval mean loss: 3.405504
+min eval loss: 3.333990
+the epoch of min eval loss: 26
+**** EPOCH 028 ****
+----0-----
+mean loss: 3.461326
+----1-----
+mean loss: 3.481980
+----2-----
+mean loss: 3.507692
+----3-----
+mean loss: 3.479683
+----4-----
+mean loss: 3.485183
+----5-----
+mean loss: 3.421826
+----0-----
+eval mean loss: 3.321237
+Best Model saved in file: result/log_learning_rotation_so3_30_30/best_model.ckpt
+min eval loss: 3.321237
+the epoch of min eval loss: 28
+**** EPOCH 029 ****
+----0-----
+mean loss: 3.486122
+----1-----
+mean loss: 3.437375
+----2-----
+mean loss: 3.459393
+----3-----
+mean loss: 3.541170
+----4-----
+mean loss: 3.503878
+----5-----
+mean loss: 3.435356
+----0-----
+eval mean loss: 3.330881
+min eval loss: 3.321237
+the epoch of min eval loss: 28
+**** EPOCH 030 ****
+----0-----
+mean loss: 3.450898
+----1-----
+mean loss: 3.469255
+----2-----
+mean loss: 3.478807
+----3-----
+mean loss: 3.485034
+----4-----
+mean loss: 3.460616
+----5-----
+mean loss: 3.417152
+----0-----
+eval mean loss: 3.279003
+Best Model saved in file: result/log_learning_rotation_so3_30_30/best_model.ckpt
+min eval loss: 3.279003
+the epoch of min eval loss: 30
+Model saved in file: result/log_learning_rotation_so3_30_30/model.ckpt
+**** EPOCH 031 ****
+----0-----
+mean loss: 3.448229
+----1-----
+mean loss: 3.417013
+----2-----
+mean loss: 3.422035
+----3-----
+mean loss: 3.490849
+----4-----
+mean loss: 3.492180
+----5-----
+mean loss: 3.408199
+----0-----
+eval mean loss: 3.302823
+min eval loss: 3.279003
+the epoch of min eval loss: 30
+**** EPOCH 032 ****
+----0-----
+mean loss: 3.476012
+----1-----
+mean loss: 3.456032
+----2-----
+mean loss: 3.462394
+----3-----
+mean loss: 3.458909
+----4-----
+mean loss: 3.472314
+----5-----
+mean loss: 3.407639
+----0-----
+eval mean loss: 3.256452
+Best Model saved in file: result/log_learning_rotation_so3_30_30/best_model.ckpt
+min eval loss: 3.256452
+the epoch of min eval loss: 32
+**** EPOCH 033 ****
+----0-----
+mean loss: 3.419038
+----1-----
+mean loss: 3.415768
+----2-----
+mean loss: 3.388554
+----3-----
+mean loss: 3.417176
+----4-----
+mean loss: 3.387766
+----5-----
+mean loss: 3.355662
+----0-----
+eval mean loss: 3.242056
+Best Model saved in file: result/log_learning_rotation_so3_30_30/best_model.ckpt
+min eval loss: 3.242056
+the epoch of min eval loss: 33
+**** EPOCH 034 ****
+----0-----
+mean loss: 3.387074
+----1-----
+mean loss: 3.366313
+----2-----
+mean loss: 3.375525
+----3-----
+mean loss: 3.396615
+----4-----
+mean loss: 3.374517
+----5-----
+mean loss: 3.359577
+----0-----
+eval mean loss: 3.218850
+Best Model saved in file: result/log_learning_rotation_so3_30_30/best_model.ckpt
+min eval loss: 3.218850
+the epoch of min eval loss: 34
+**** EPOCH 035 ****
+----0-----
+mean loss: 3.373746
+----1-----
+mean loss: 3.367213
+----2-----
+mean loss: 3.368127
+----3-----
+mean loss: 3.345296
+----4-----
+mean loss: 3.403405
+----5-----
+mean loss: 3.330939
+----0-----
+eval mean loss: 3.224986
+min eval loss: 3.218850
+the epoch of min eval loss: 34
+**** EPOCH 036 ****
+----0-----
+mean loss: 3.371348
+----1-----
+mean loss: 3.367591
+----2-----
+mean loss: 3.346017
+----3-----
+mean loss: 3.404127
+----4-----
+mean loss: 3.368449
+----5-----
+mean loss: 3.289888
+----0-----
+eval mean loss: 3.180709
+Best Model saved in file: result/log_learning_rotation_so3_30_30/best_model.ckpt
+min eval loss: 3.180709
+the epoch of min eval loss: 36
+**** EPOCH 037 ****
+----0-----
+mean loss: 3.335277
+----1-----
+mean loss: 3.329117
+----2-----
+mean loss: 3.351834
+----3-----
+mean loss: 3.380527
+----4-----
+mean loss: 3.350773
+----5-----
+mean loss: 3.310217
+----0-----
+eval mean loss: 3.211351
+min eval loss: 3.180709
+the epoch of min eval loss: 36
+**** EPOCH 038 ****
+----0-----
+mean loss: 3.357893
+----1-----
+mean loss: 3.346748
+----2-----
+mean loss: 3.301025
+----3-----
+mean loss: 3.382813
+----4-----
+mean loss: 3.376024
+----5-----
+mean loss: 3.317522
+----0-----
+eval mean loss: 3.167096
+Best Model saved in file: result/log_learning_rotation_so3_30_30/best_model.ckpt
+min eval loss: 3.167096
+the epoch of min eval loss: 38
+**** EPOCH 039 ****
+----0-----
+mean loss: 3.330258
+----1-----
+mean loss: 3.312958
+----2-----
+mean loss: 3.320989
+----3-----
+mean loss: 3.375460
+----4-----
+mean loss: 3.345046
+----5-----
+mean loss: 3.258996
+----0-----
+eval mean loss: 3.180793
+min eval loss: 3.167096
+the epoch of min eval loss: 38
+**** EPOCH 040 ****
+----0-----
+mean loss: 3.310360
+----1-----
+mean loss: 3.335006
+----2-----
+mean loss: 3.316851
+----3-----
+mean loss: 3.350750
+----4-----
+mean loss: 3.343857
+----5-----
+mean loss: 3.257972
+----0-----
+eval mean loss: 3.163181
+Best Model saved in file: result/log_learning_rotation_so3_30_30/best_model.ckpt
+min eval loss: 3.163181
+the epoch of min eval loss: 40
+Model saved in file: result/log_learning_rotation_so3_30_30/model.ckpt
+**** EPOCH 041 ****
+----0-----
+mean loss: 3.337499
+----1-----
+mean loss: 3.298421
+----2-----
+mean loss: 3.304472
+----3-----
+mean loss: 3.354022
+----4-----
+mean loss: 3.334163
+----5-----
+mean loss: 3.306408
+----0-----
+eval mean loss: 3.174260
+min eval loss: 3.163181
+the epoch of min eval loss: 40
+**** EPOCH 042 ****
+----0-----
+mean loss: 3.296032
+----1-----
+mean loss: 3.301915
+----2-----
+mean loss: 3.330141
+----3-----
+mean loss: 3.331143
+----4-----
+mean loss: 3.311676
+----5-----
+mean loss: 3.277621
+----0-----
+eval mean loss: 3.162591
+Best Model saved in file: result/log_learning_rotation_so3_30_30/best_model.ckpt
+min eval loss: 3.162591
+the epoch of min eval loss: 42
+**** EPOCH 043 ****
+----0-----
+mean loss: 3.301501
+----1-----
+mean loss: 3.296383
+----2-----
+mean loss: 3.322010
+----3-----
+mean loss: 3.287097
+----4-----
+mean loss: 3.321313
+----5-----
+mean loss: 3.274440
+----0-----
+eval mean loss: 3.192981
+min eval loss: 3.162591
+the epoch of min eval loss: 42
+**** EPOCH 044 ****
+----0-----
+mean loss: 3.311312
+----1-----
+mean loss: 3.291061
+----2-----
+mean loss: 3.307110
+----3-----
+mean loss: 3.314167
+----4-----
+mean loss: 3.329459
+----5-----
+mean loss: 3.244806
+----0-----
+eval mean loss: 3.150252
+Best Model saved in file: result/log_learning_rotation_so3_30_30/best_model.ckpt
+min eval loss: 3.150252
+the epoch of min eval loss: 44
+**** EPOCH 045 ****
+----0-----
+mean loss: 3.300057
+----1-----
+mean loss: 3.299522
+----2-----
+mean loss: 3.303377
+----3-----
+mean loss: 3.315832
+----4-----
+mean loss: 3.332034
+----5-----
+mean loss: 3.269502
+----0-----
+eval mean loss: 3.187073
+min eval loss: 3.150252
+the epoch of min eval loss: 44
+**** EPOCH 046 ****
+----0-----
+mean loss: 3.295755
+----1-----
+mean loss: 3.295769
+----2-----
+mean loss: 3.285875
+----3-----
+mean loss: 3.331864
+----4-----
+mean loss: 3.279875
+----5-----
+mean loss: 3.269345
+----0-----
+eval mean loss: 3.163821
+min eval loss: 3.150252
+the epoch of min eval loss: 44
+**** EPOCH 047 ****
+----0-----
+mean loss: 3.284374
+----1-----
+mean loss: 3.293955
+----2-----
+mean loss: 3.312088
+----3-----
+mean loss: 3.294145
+----4-----
+mean loss: 3.311563
+----5-----
+mean loss: 3.285258
+----0-----
+eval mean loss: 3.208238
+min eval loss: 3.150252
+the epoch of min eval loss: 44
+**** EPOCH 048 ****
+----0-----
+mean loss: 3.331010
+----1-----
+mean loss: 3.286704
+----2-----
+mean loss: 3.261483
+----3-----
+mean loss: 3.298536
+----4-----
+mean loss: 3.323920
+----5-----
+mean loss: 3.233289
+----0-----
+eval mean loss: 3.191165
+min eval loss: 3.150252
+the epoch of min eval loss: 44
+**** EPOCH 049 ****
+----0-----
+mean loss: 3.263247
+----1-----
+mean loss: 3.282478
+----2-----
+mean loss: 3.268928
+----3-----
+mean loss: 3.316688
+----4-----
+mean loss: 3.284221
+----5-----
+mean loss: 3.186305
+----0-----
+eval mean loss: 3.094683
+Best Model saved in file: result/log_learning_rotation_so3_30_30/best_model.ckpt
+min eval loss: 3.094683
+the epoch of min eval loss: 49
+**** EPOCH 050 ****
+----0-----
+mean loss: 3.243378
+----1-----
+mean loss: 3.232542
+----2-----
+mean loss: 3.249809
+----3-----
+mean loss: 3.241823
+----4-----
+mean loss: 3.278169
+----5-----
+mean loss: 3.208122
+----0-----
+eval mean loss: 3.109680
+min eval loss: 3.094683
+the epoch of min eval loss: 49
+Model saved in file: result/log_learning_rotation_so3_30_30/model.ckpt
+**** EPOCH 051 ****
+----0-----
+mean loss: 3.224269
+----1-----
+mean loss: 3.217413
+----2-----
+mean loss: 3.215964
+----3-----
+mean loss: 3.249558
+----4-----
+mean loss: 3.249126
+----5-----
+mean loss: 3.174564
+----0-----
+eval mean loss: 3.122094
+min eval loss: 3.094683
+the epoch of min eval loss: 49
+**** EPOCH 052 ****
+----0-----
+mean loss: 3.245343
+----1-----
+mean loss: 3.253730
+----2-----
+mean loss: 3.249048
+----3-----
+mean loss: 3.251393
+----4-----
+mean loss: 3.252737
+----5-----
+mean loss: 3.187661
+----0-----
+eval mean loss: 3.119356
+min eval loss: 3.094683
+the epoch of min eval loss: 49
+**** EPOCH 053 ****
+----0-----
+mean loss: 3.257578
+----1-----
+mean loss: 3.213215
+----2-----
+mean loss: 3.216308
+----3-----
+mean loss: 3.249264
+----4-----
+mean loss: 3.230942
+----5-----
+mean loss: 3.197662
+----0-----
+eval mean loss: 3.071264
+Best Model saved in file: result/log_learning_rotation_so3_30_30/best_model.ckpt
+min eval loss: 3.071264
+the epoch of min eval loss: 53
+**** EPOCH 054 ****
+----0-----
+mean loss: 3.244097
+----1-----
+mean loss: 3.206199
+----2-----
+mean loss: 3.180779
+----3-----
+mean loss: 3.223345
+----4-----
+mean loss: 3.248537
+----5-----
+mean loss: 3.191489
+----0-----
+eval mean loss: 3.068249
+Best Model saved in file: result/log_learning_rotation_so3_30_30/best_model.ckpt
+min eval loss: 3.068249
+the epoch of min eval loss: 54
+**** EPOCH 055 ****
+----0-----
+mean loss: 3.241784
+----1-----
+mean loss: 3.189006
+----2-----
+mean loss: 3.224398
+----3-----
+mean loss: 3.215700
+----4-----
+mean loss: 3.237027
+----5-----
+mean loss: 3.190327
+----0-----
+eval mean loss: 3.075275
+min eval loss: 3.068249
+the epoch of min eval loss: 54
+**** EPOCH 056 ****
+----0-----
+mean loss: 3.203273
+----1-----
+mean loss: 3.213085
+----2-----
+mean loss: 3.215337
+----3-----
+mean loss: 3.217852
+----4-----
+mean loss: 3.229516
+----5-----
+mean loss: 3.143613
+----0-----
+eval mean loss: 3.088614
+min eval loss: 3.068249
+the epoch of min eval loss: 54
+**** EPOCH 057 ****
+----0-----
+mean loss: 3.217507
+----1-----
+mean loss: 3.167046
+----2-----
+mean loss: 3.231392
+----3-----
+mean loss: 3.215378
+----4-----
+mean loss: 3.223102
+----5-----
+mean loss: 3.162339
+----0-----
+eval mean loss: 3.057689
+Best Model saved in file: result/log_learning_rotation_so3_30_30/best_model.ckpt
+min eval loss: 3.057689
+the epoch of min eval loss: 57
+**** EPOCH 058 ****
+----0-----
+mean loss: 3.217138
+----1-----
+mean loss: 3.224652
+----2-----
+mean loss: 3.201836
+----3-----
+mean loss: 3.203089
+----4-----
+mean loss: 3.221100
+----5-----
+mean loss: 3.200201
+----0-----
+eval mean loss: 3.066401
+min eval loss: 3.057689
+the epoch of min eval loss: 57
+**** EPOCH 059 ****
+----0-----
+mean loss: 3.214401
+----1-----
+mean loss: 3.194621
+----2-----
+mean loss: 3.210267
+----3-----
+mean loss: 3.208342
+----4-----
+mean loss: 3.236915
+----5-----
+mean loss: 3.169534
+----0-----
+eval mean loss: 3.056321
+Best Model saved in file: result/log_learning_rotation_so3_30_30/best_model.ckpt
+min eval loss: 3.056321
+the epoch of min eval loss: 59
+**** EPOCH 060 ****
+----0-----
+mean loss: 3.203603
+----1-----
+mean loss: 3.202226
+----2-----
+mean loss: 3.202902
+----3-----
+mean loss: 3.227568
+----4-----
+mean loss: 3.208822
+----5-----
+mean loss: 3.170889
+----0-----
+eval mean loss: 3.071971
+min eval loss: 3.056321
+the epoch of min eval loss: 59
+Model saved in file: result/log_learning_rotation_so3_30_30/model.ckpt
+**** EPOCH 061 ****
+----0-----
+mean loss: 3.199274
+----1-----
+mean loss: 3.201471
+----2-----
+mean loss: 3.212850
+----3-----
+mean loss: 3.226292
+----4-----
+mean loss: 3.197010
+----5-----
+mean loss: 3.149799
+----0-----
+eval mean loss: 3.049333
+Best Model saved in file: result/log_learning_rotation_so3_30_30/best_model.ckpt
+min eval loss: 3.049333
+the epoch of min eval loss: 61
+**** EPOCH 062 ****
+----0-----
+mean loss: 3.203874
+----1-----
+mean loss: 3.208590
+----2-----
+mean loss: 3.190330
+----3-----
+mean loss: 3.242185
+----4-----
+mean loss: 3.214880
+----5-----
+mean loss: 3.141173
+----0-----
+eval mean loss: 3.076162
+min eval loss: 3.049333
+the epoch of min eval loss: 61
+**** EPOCH 063 ****
+----0-----
+mean loss: 3.191943
+----1-----
+mean loss: 3.204422
+----2-----
+mean loss: 3.184398
+----3-----
+mean loss: 3.198292
+----4-----
+mean loss: 3.231918
+----5-----
+mean loss: 3.181076
+----0-----
+eval mean loss: 3.064210
+min eval loss: 3.049333
+the epoch of min eval loss: 61
+**** EPOCH 064 ****
+----0-----
+mean loss: 3.218525
+----1-----
+mean loss: 3.186021
+----2-----
+mean loss: 3.200672
+----3-----
+mean loss: 3.212932
+----4-----
+mean loss: 3.222638
+----5-----
+mean loss: 3.147686
+----0-----
+eval mean loss: 3.064397
+min eval loss: 3.049333
+the epoch of min eval loss: 61
+**** EPOCH 065 ****
+----0-----
+mean loss: 3.206226
+----1-----
+mean loss: 3.196074
+----2-----
+mean loss: 3.206486
+----3-----
+mean loss: 3.193119
+----4-----
+mean loss: 3.206370
+----5-----
+mean loss: 3.176102
+----0-----
+eval mean loss: 3.047305
+Best Model saved in file: result/log_learning_rotation_so3_30_30/best_model.ckpt
+min eval loss: 3.047305
+the epoch of min eval loss: 65
+**** EPOCH 066 ****
+----0-----
+mean loss: 3.172107
+----1-----
+mean loss: 3.165154
+----2-----
+mean loss: 3.169847
+----3-----
+mean loss: 3.159860
+----4-----
+mean loss: 3.187140
+----5-----
+mean loss: 3.136924
+----0-----
+eval mean loss: 3.005922
+Best Model saved in file: result/log_learning_rotation_so3_30_30/best_model.ckpt
+min eval loss: 3.005922
+the epoch of min eval loss: 66
+**** EPOCH 067 ****
+----0-----
+mean loss: 3.181998
+----1-----
+mean loss: 3.198803
+----2-----
+mean loss: 3.174911
+----3-----
+mean loss: 3.173681
+----4-----
+mean loss: 3.199507
+----5-----
+mean loss: 3.100470
+----0-----
+eval mean loss: 3.041971
+min eval loss: 3.005922
+the epoch of min eval loss: 66
+**** EPOCH 068 ****
+----0-----
+mean loss: 3.147494
+----1-----
+mean loss: 3.153087
+----2-----
+mean loss: 3.147092
+----3-----
+mean loss: 3.172431
+----4-----
+mean loss: 3.157662
+----5-----
+mean loss: 3.125374
+----0-----
+eval mean loss: 3.027824
+min eval loss: 3.005922
+the epoch of min eval loss: 66
+**** EPOCH 069 ****
+----0-----
+mean loss: 3.187624
+----1-----
+mean loss: 3.193168
+----2-----
+mean loss: 3.186800
+----3-----
+mean loss: 3.187993
+----4-----
+mean loss: 3.164588
+----5-----
+mean loss: 3.111165
+----0-----
+eval mean loss: 3.008432
+min eval loss: 3.005922
+the epoch of min eval loss: 66
+**** EPOCH 070 ****
+----0-----
+mean loss: 3.179563
+----1-----
+mean loss: 3.154751
+----2-----
+mean loss: 3.168504
+----3-----
+mean loss: 3.146773
+----4-----
+mean loss: 3.162681
+----5-----
+mean loss: 3.123691
+----0-----
+eval mean loss: 3.047357
+min eval loss: 3.005922
+the epoch of min eval loss: 66
+Model saved in file: result/log_learning_rotation_so3_30_30/model.ckpt
+**** EPOCH 071 ****
+----0-----
+mean loss: 3.156471
+----1-----
+mean loss: 3.149389
+----2-----
+mean loss: 3.123583
+----3-----
+mean loss: 3.185034
+----4-----
+mean loss: 3.164138
+----5-----
+mean loss: 3.119224
+----0-----
+eval mean loss: 2.996976
+Best Model saved in file: result/log_learning_rotation_so3_30_30/best_model.ckpt
+min eval loss: 2.996976
+the epoch of min eval loss: 71
+**** EPOCH 072 ****
+----0-----
+mean loss: 3.127542
+----1-----
+mean loss: 3.175470
+----2-----
+mean loss: 3.163871
+----3-----
+mean loss: 3.170871
+----4-----
+mean loss: 3.139355
+----5-----
+mean loss: 3.124115
+----0-----
+eval mean loss: 2.998669
+min eval loss: 2.996976
+the epoch of min eval loss: 71
+**** EPOCH 073 ****
+----0-----
+mean loss: 3.146169
+----1-----
+mean loss: 3.163268
+----2-----
+mean loss: 3.128281
+----3-----
+mean loss: 3.142536
+----4-----
+mean loss: 3.142771
+----5-----
+mean loss: 3.118249
+----0-----
+eval mean loss: 3.028991
+min eval loss: 2.996976
+the epoch of min eval loss: 71
+**** EPOCH 074 ****
+----0-----
+mean loss: 3.133922
+----1-----
+mean loss: 3.160169
+----2-----
+mean loss: 3.149894
+----3-----
+mean loss: 3.173687
+----4-----
+mean loss: 3.175766
+----5-----
+mean loss: 3.129529
+----0-----
+eval mean loss: 3.035890
+min eval loss: 2.996976
+the epoch of min eval loss: 71
+**** EPOCH 075 ****
+----0-----
+mean loss: 3.143214
+----1-----
+mean loss: 3.154994
+----2-----
+mean loss: 3.155243
+----3-----
+mean loss: 3.144551
+----4-----
+mean loss: 3.181210
+----5-----
+mean loss: 3.108404
+----0-----
+eval mean loss: 3.022990
+min eval loss: 2.996976
+the epoch of min eval loss: 71
+**** EPOCH 076 ****
+----0-----
+mean loss: 3.134352
+----1-----
+mean loss: 3.160311
+----2-----
+mean loss: 3.112980
+----3-----
+mean loss: 3.171039
+----4-----
+mean loss: 3.149605
+----5-----
+mean loss: 3.096271
+----0-----
+eval mean loss: 2.997797
+min eval loss: 2.996976
+the epoch of min eval loss: 71
+**** EPOCH 077 ****
+----0-----
+mean loss: 3.140678
+----1-----
+mean loss: 3.152462
+----2-----
+mean loss: 3.124085
+----3-----
+mean loss: 3.130159
+----4-----
+mean loss: 3.174327
+----5-----
+mean loss: 3.105248
+----0-----
+eval mean loss: 3.019349
+min eval loss: 2.996976
+the epoch of min eval loss: 71
+**** EPOCH 078 ****
+----0-----
+mean loss: 3.133353
+----1-----
+mean loss: 3.133653
+----2-----
+mean loss: 3.129823
+----3-----
+mean loss: 3.169489
+----4-----
+mean loss: 3.123580
+----5-----
+mean loss: 3.109937
+----0-----
+eval mean loss: 3.007666
+min eval loss: 2.996976
+the epoch of min eval loss: 71
+**** EPOCH 079 ****
+----0-----
+mean loss: 3.121937
+----1-----
+mean loss: 3.145237
+----2-----
+mean loss: 3.158124
+----3-----
+mean loss: 3.127136
+----4-----
+mean loss: 3.147441
+----5-----
+mean loss: 3.104180
+----0-----
+eval mean loss: 2.971232
+Best Model saved in file: result/log_learning_rotation_so3_30_30/best_model.ckpt
+min eval loss: 2.971232
+the epoch of min eval loss: 79
+**** EPOCH 080 ****
+----0-----
+mean loss: 3.125830
+----1-----
+mean loss: 3.169696
+----2-----
+mean loss: 3.142579
+----3-----
+mean loss: 3.173739
+----4-----
+mean loss: 3.153793
+----5-----
+mean loss: 3.097607
+----0-----
+eval mean loss: 3.006798
+min eval loss: 2.971232
+the epoch of min eval loss: 79
+Model saved in file: result/log_learning_rotation_so3_30_30/model.ckpt
+**** EPOCH 081 ****
+----0-----
+mean loss: 3.132277
+----1-----
+mean loss: 3.137213
+----2-----
+mean loss: 3.137341
+----3-----
+mean loss: 3.118019
+----4-----
+mean loss: 3.114974
+----5-----
+mean loss: 3.111010
+----0-----
+eval mean loss: 2.976699
+min eval loss: 2.971232
+the epoch of min eval loss: 79
+**** EPOCH 082 ****
+----0-----
+mean loss: 3.142304
+----1-----
+mean loss: 3.138835
+----2-----
+mean loss: 3.138064
+----3-----
+mean loss: 3.150161
+----4-----
+mean loss: 3.130003
+----5-----
+mean loss: 3.077907
+----0-----
+eval mean loss: 2.983554
+min eval loss: 2.971232
+the epoch of min eval loss: 79
+**** EPOCH 083 ****
+----0-----
+mean loss: 3.105950
+----1-----
+mean loss: 3.123730
+----2-----
+mean loss: 3.121329
+----3-----
+mean loss: 3.110649
+----4-----
+mean loss: 3.117942
+----5-----
+mean loss: 3.044655
+----0-----
+eval mean loss: 2.964568
+Best Model saved in file: result/log_learning_rotation_so3_30_30/best_model.ckpt
+min eval loss: 2.964568
+the epoch of min eval loss: 83
+**** EPOCH 084 ****
+----0-----
+mean loss: 3.126242
+----1-----
+mean loss: 3.113496
+----2-----
+mean loss: 3.111257
+----3-----
+mean loss: 3.127477
+----4-----
+mean loss: 3.121378
+----5-----
+mean loss: 3.071639
+----0-----
+eval mean loss: 2.947321
+Best Model saved in file: result/log_learning_rotation_so3_30_30/best_model.ckpt
+min eval loss: 2.947321
+the epoch of min eval loss: 84
+**** EPOCH 085 ****
+----0-----
+mean loss: 3.118008
+----1-----
+mean loss: 3.104124
+----2-----
+mean loss: 3.108877
+----3-----
+mean loss: 3.115763
+----4-----
+mean loss: 3.098713
+----5-----
+mean loss: 3.071606
+----0-----
+eval mean loss: 2.969248
+min eval loss: 2.947321
+the epoch of min eval loss: 84
+**** EPOCH 086 ****
+----0-----
+mean loss: 3.109055
+----1-----
+mean loss: 3.091117
+----2-----
+mean loss: 3.100784
+----3-----
+mean loss: 3.122482
+----4-----
+mean loss: 3.083760
+----5-----
+mean loss: 3.081809
+----0-----
+eval mean loss: 2.939615
+Best Model saved in file: result/log_learning_rotation_so3_30_30/best_model.ckpt
+min eval loss: 2.939615
+the epoch of min eval loss: 86
+**** EPOCH 087 ****
+----0-----
+mean loss: 3.092887
+----1-----
+mean loss: 3.108927
+----2-----
+mean loss: 3.110094
+----3-----
+mean loss: 3.131726
+----4-----
+mean loss: 3.082612
+----5-----
+mean loss: 3.044788
+----0-----
+eval mean loss: 2.943798
+min eval loss: 2.939615
+the epoch of min eval loss: 86
+**** EPOCH 088 ****
+----0-----
+mean loss: 3.099006
+----1-----
+mean loss: 3.094886
+----2-----
+mean loss: 3.117449
+----3-----
+mean loss: 3.127658
+----4-----
+mean loss: 3.092575
+----5-----
+mean loss: 3.049873
+----0-----
+eval mean loss: 2.958806
+min eval loss: 2.939615
+the epoch of min eval loss: 86
+**** EPOCH 089 ****
+----0-----
+mean loss: 3.111184
+----1-----
+mean loss: 3.115880
+----2-----
+mean loss: 3.066657
+----3-----
+mean loss: 3.097826
+----4-----
+mean loss: 3.114054
+----5-----
+mean loss: 3.079157
+----0-----
+eval mean loss: 2.987060
+min eval loss: 2.939615
+the epoch of min eval loss: 86
+**** EPOCH 090 ****
+----0-----
+mean loss: 3.082409
+----1-----
+mean loss: 3.108425
+----2-----
+mean loss: 3.067405
+----3-----
+mean loss: 3.123050
+----4-----
+mean loss: 3.115905
+----5-----
+mean loss: 3.057899
+----0-----
+eval mean loss: 2.932374
+Best Model saved in file: result/log_learning_rotation_so3_30_30/best_model.ckpt
+min eval loss: 2.932374
+the epoch of min eval loss: 90
+Model saved in file: result/log_learning_rotation_so3_30_30/model.ckpt
+**** EPOCH 091 ****
+----0-----
+mean loss: 3.106445
+----1-----
+mean loss: 3.099686
+----2-----
+mean loss: 3.080552
+----3-----
+mean loss: 3.107552
+----4-----
+mean loss: 3.092393
+----5-----
+mean loss: 3.032599
+----0-----
+eval mean loss: 2.969870
+min eval loss: 2.932374
+the epoch of min eval loss: 90
+**** EPOCH 092 ****
+----0-----
+mean loss: 3.093650
+----1-----
+mean loss: 3.092867
+----2-----
+mean loss: 3.111215
+----3-----
+mean loss: 3.112659
+----4-----
+mean loss: 3.106691
+----5-----
+mean loss: 3.079966
+----0-----
+eval mean loss: 2.976329
+min eval loss: 2.932374
+the epoch of min eval loss: 90
+**** EPOCH 093 ****
+----0-----
+mean loss: 3.114038
+----1-----
+mean loss: 3.120353
+----2-----
+mean loss: 3.081227
+----3-----
+mean loss: 3.098504
+----4-----
+mean loss: 3.083363
+----5-----
+mean loss: 3.034805
+----0-----
+eval mean loss: 2.958341
+min eval loss: 2.932374
+the epoch of min eval loss: 90
+**** EPOCH 094 ****
+----0-----
+mean loss: 3.074220
+----1-----
+mean loss: 3.070996
+----2-----
+mean loss: 3.090383
+----3-----
+mean loss: 3.087267
+----4-----
+mean loss: 3.095952
+----5-----
+mean loss: 3.080037
+----0-----
+eval mean loss: 2.955210
+min eval loss: 2.932374
+the epoch of min eval loss: 90
+**** EPOCH 095 ****
+----0-----
+mean loss: 3.079253
+----1-----
+mean loss: 3.067985
+----2-----
+mean loss: 3.110448
+----3-----
+mean loss: 3.113553
+----4-----
+mean loss: 3.083733
+----5-----
+mean loss: 3.079586
+----0-----
+eval mean loss: 2.970957
+min eval loss: 2.932374
+the epoch of min eval loss: 90
+**** EPOCH 096 ****
+----0-----
+mean loss: 3.110494
+----1-----
+mean loss: 3.072108
+----2-----
+mean loss: 3.083457
+----3-----
+mean loss: 3.093259
+----4-----
+mean loss: 3.115415
+----5-----
+mean loss: 3.078074
+----0-----
+eval mean loss: 2.978179
+min eval loss: 2.932374
+the epoch of min eval loss: 90
+**** EPOCH 097 ****
+----0-----
+mean loss: 3.069352
+----1-----
+mean loss: 3.075868
+----2-----
+mean loss: 3.066773
+----3-----
+mean loss: 3.104805
+----4-----
+mean loss: 3.119489
+----5-----
+mean loss: 3.049550
+----0-----
+eval mean loss: 2.949324
+min eval loss: 2.932374
+the epoch of min eval loss: 90
+**** EPOCH 098 ****
+----0-----
+mean loss: 3.109994
+----1-----
+mean loss: 3.105112
+----2-----
+mean loss: 3.090815
+----3-----
+mean loss: 3.109557
+----4-----
+mean loss: 3.112605
+----5-----
+mean loss: 3.053629
+----0-----
+eval mean loss: 2.952779
+min eval loss: 2.932374
+the epoch of min eval loss: 90
+**** EPOCH 099 ****
+----0-----
+mean loss: 3.108844
+----1-----
+mean loss: 3.074638
+----2-----
+mean loss: 3.090993
+----3-----
+mean loss: 3.103201
+----4-----
+mean loss: 3.081847
+----5-----
+mean loss: 3.022101
+----0-----
+eval mean loss: 2.901060
+Best Model saved in file: result/log_learning_rotation_so3_30_30/best_model.ckpt
+min eval loss: 2.901060
+the epoch of min eval loss: 99
+**** EPOCH 100 ****
+----0-----
+mean loss: 3.099572
+----1-----
+mean loss: 3.068666
+----2-----
+mean loss: 3.043932
+----3-----
+mean loss: 3.091499
+----4-----
+mean loss: 3.071296
+----5-----
+mean loss: 3.014685
+----0-----
+eval mean loss: 2.933706
+min eval loss: 2.901060
+the epoch of min eval loss: 99
+Model saved in file: result/log_learning_rotation_so3_30_30/model.ckpt
+**** EPOCH 101 ****
+----0-----
+mean loss: 3.081276
+----1-----
+mean loss: 3.073468
+----2-----
+mean loss: 3.075120
+----3-----
+mean loss: 3.093267
+----4-----
+mean loss: 3.069053
+----5-----
+mean loss: 3.035498
+----0-----
+eval mean loss: 2.926735
+min eval loss: 2.901060
+the epoch of min eval loss: 99
+**** EPOCH 102 ****
+----0-----
+mean loss: 3.056030
+----1-----
+mean loss: 3.057306
+----2-----
+mean loss: 3.077565
+----3-----
+mean loss: 3.125290
+----4-----
+mean loss: 3.104411
+----5-----
+mean loss: 3.008228
+----0-----
+eval mean loss: 2.959452
+min eval loss: 2.901060
+the epoch of min eval loss: 99
+**** EPOCH 103 ****
+----0-----
+mean loss: 3.070009
+----1-----
+mean loss: 3.051356
+----2-----
+mean loss: 3.071244
+----3-----
+mean loss: 3.084500
+----4-----
+mean loss: 3.062333
+----5-----
+mean loss: 3.076834
+----0-----
+eval mean loss: 2.965865
+min eval loss: 2.901060
+the epoch of min eval loss: 99
+**** EPOCH 104 ****
+----0-----
+mean loss: 3.089339
+----1-----
+mean loss: 3.080902
+----2-----
+mean loss: 3.077525
+----3-----
+mean loss: 3.100523
+----4-----
+mean loss: 3.068422
+----5-----
+mean loss: 3.024069
+----0-----
+eval mean loss: 2.910186
+min eval loss: 2.901060
+the epoch of min eval loss: 99
+**** EPOCH 105 ****
+----0-----
+mean loss: 3.047280
+----1-----
+mean loss: 3.040478
+----2-----
+mean loss: 3.071498
+----3-----
+mean loss: 3.101889
+----4-----
+mean loss: 3.070262
+----5-----
+mean loss: 3.061375
+----0-----
+eval mean loss: 2.932850
+min eval loss: 2.901060
+the epoch of min eval loss: 99
+**** EPOCH 106 ****
+----0-----
+mean loss: 3.076461
+----1-----
+mean loss: 3.030785
+----2-----
+mean loss: 3.073317
+----3-----
+mean loss: 3.053754
+----4-----
+mean loss: 3.092597
+----5-----
+mean loss: 3.044023
+----0-----
+eval mean loss: 2.936993
+min eval loss: 2.901060
+the epoch of min eval loss: 99
+**** EPOCH 107 ****
+----0-----
+mean loss: 3.078768
+----1-----
+mean loss: 3.050070
+----2-----
+mean loss: 3.068367
+----3-----
+mean loss: 3.102233
+----4-----
+mean loss: 3.059262
+----5-----
+mean loss: 3.046998
+----0-----
+eval mean loss: 2.947547
+min eval loss: 2.901060
+the epoch of min eval loss: 99
+**** EPOCH 108 ****
+----0-----
+mean loss: 3.078575
+----1-----
+mean loss: 3.061711
+----2-----
+mean loss: 3.027594
+----3-----
+mean loss: 3.079939
+----4-----
+mean loss: 3.102318
+----5-----
+mean loss: 3.030188
+----0-----
+eval mean loss: 2.952417
+min eval loss: 2.901060
+the epoch of min eval loss: 99
+**** EPOCH 109 ****
+----0-----
+mean loss: 3.070612
+----1-----
+mean loss: 3.083527
+----2-----
+mean loss: 3.070967
+----3-----
+mean loss: 3.071244
+----4-----
+mean loss: 3.037330
+----5-----
+mean loss: 3.043370
+----0-----
+eval mean loss: 2.938735
+min eval loss: 2.901060
+the epoch of min eval loss: 99
+**** EPOCH 110 ****
+----0-----
+mean loss: 3.054475
+----1-----
+mean loss: 3.059591
+----2-----
+mean loss: 3.069271
+----3-----
+mean loss: 3.107732
+----4-----
+mean loss: 3.077984
+----5-----
+mean loss: 3.000978
+----0-----
+eval mean loss: 2.948732
+min eval loss: 2.901060
+the epoch of min eval loss: 99
+Model saved in file: result/log_learning_rotation_so3_30_30/model.ckpt
+**** EPOCH 111 ****
+----0-----
+mean loss: 3.084414
+----1-----
+mean loss: 3.043411
+----2-----
+mean loss: 3.051200
+----3-----
+mean loss: 3.096689
+----4-----
+mean loss: 3.062765
+----5-----
+mean loss: 3.029442
+----0-----
+eval mean loss: 2.928422
+min eval loss: 2.901060
+the epoch of min eval loss: 99
+**** EPOCH 112 ****
+----0-----
+mean loss: 3.077945
+----1-----
+mean loss: 3.040858
+----2-----
+mean loss: 3.102512
+----3-----
+mean loss: 3.079128
+----4-----
+mean loss: 3.066318
+----5-----
+mean loss: 3.025685
+----0-----
+eval mean loss: 2.956342
+min eval loss: 2.901060
+the epoch of min eval loss: 99
+**** EPOCH 113 ****
+----0-----
+mean loss: 3.045444
+----1-----
+mean loss: 3.044543
+----2-----
+mean loss: 3.076081
+----3-----
+mean loss: 3.073708
+----4-----
+mean loss: 3.084337
+----5-----
+mean loss: 3.038597
+----0-----
+eval mean loss: 2.910938
+min eval loss: 2.901060
+the epoch of min eval loss: 99
+**** EPOCH 114 ****
+----0-----
+mean loss: 3.080724
+----1-----
+mean loss: 3.060437
+----2-----
+mean loss: 3.082480
+----3-----
+mean loss: 3.063840
+----4-----
+mean loss: 3.098232
+----5-----
+mean loss: 3.012457
+----0-----
+eval mean loss: 2.910759
+min eval loss: 2.901060
+the epoch of min eval loss: 99
+**** EPOCH 115 ****
+----0-----
+mean loss: 3.034025
+----1-----
+mean loss: 3.085428
+----2-----
+mean loss: 3.055074
+----3-----
+mean loss: 3.076925
+----4-----
+mean loss: 3.079220
+----5-----
+mean loss: 3.027581
+----0-----
+eval mean loss: 2.910828
+min eval loss: 2.901060
+the epoch of min eval loss: 99
+**** EPOCH 116 ****
+----0-----
+mean loss: 3.052475
+----1-----
+mean loss: 3.026280
+----2-----
+mean loss: 3.032508
+----3-----
+mean loss: 3.058890
+----4-----
+mean loss: 3.075011
+----5-----
+mean loss: 3.019006
+----0-----
+eval mean loss: 2.919381
+min eval loss: 2.901060
+the epoch of min eval loss: 99
+**** EPOCH 117 ****
+----0-----
+mean loss: 3.051871
+----1-----
+mean loss: 3.047270
+----2-----
+mean loss: 3.062150
+----3-----
+mean loss: 3.041629
+----4-----
+mean loss: 3.063069
+----5-----
+mean loss: 3.035919
+----0-----
+eval mean loss: 2.903401
+min eval loss: 2.901060
+the epoch of min eval loss: 99
+**** EPOCH 118 ****
+----0-----
+mean loss: 3.062952
+----1-----
+mean loss: 3.036554
+----2-----
+mean loss: 3.053050
+----3-----
+mean loss: 3.053264
+----4-----
+mean loss: 3.076872
+----5-----
+mean loss: 3.015847
+----0-----
+eval mean loss: 2.897825
+Best Model saved in file: result/log_learning_rotation_so3_30_30/best_model.ckpt
+min eval loss: 2.897825
+the epoch of min eval loss: 118
+**** EPOCH 119 ****
+----0-----
+mean loss: 3.065904
+----1-----
+mean loss: 3.052044
+----2-----
+mean loss: 3.045462
+----3-----
+mean loss: 3.091550
+----4-----
+mean loss: 3.065232
+----5-----
+mean loss: 2.990531
+----0-----
+eval mean loss: 2.927181
+min eval loss: 2.897825
+the epoch of min eval loss: 118
+**** EPOCH 120 ****
+----0-----
+mean loss: 3.049703
+----1-----
+mean loss: 3.074000
+----2-----
+mean loss: 3.074709
+----3-----
+mean loss: 3.059048
+----4-----
+mean loss: 3.055543
+----5-----
+mean loss: 3.022170
+----0-----
+eval mean loss: 2.921643
+min eval loss: 2.897825
+the epoch of min eval loss: 118
+Model saved in file: result/log_learning_rotation_so3_30_30/model.ckpt
+**** EPOCH 121 ****
+----0-----
+mean loss: 3.047296
+----1-----
+mean loss: 3.043083
+----2-----
+mean loss: 3.055229
+----3-----
+mean loss: 3.063654
+----4-----
+mean loss: 3.056699
+----5-----
+mean loss: 2.999301
+----0-----
+eval mean loss: 2.896953
+Best Model saved in file: result/log_learning_rotation_so3_30_30/best_model.ckpt
+min eval loss: 2.896953
+the epoch of min eval loss: 121
+**** EPOCH 122 ****
+----0-----
+mean loss: 3.050484
+----1-----
+mean loss: 3.055814
+----2-----
+mean loss: 3.023520
+----3-----
+mean loss: 3.064791
+----4-----
+mean loss: 3.054383
+----5-----
+mean loss: 3.004697
+----0-----
+eval mean loss: 2.916928
+min eval loss: 2.896953
+the epoch of min eval loss: 121
+**** EPOCH 123 ****
+----0-----
+mean loss: 3.029233
+----1-----
+mean loss: 3.053573
+----2-----
+mean loss: 3.013728
+----3-----
+mean loss: 3.055941
+----4-----
+mean loss: 3.024259
+----5-----
+mean loss: 2.972025
+----0-----
+eval mean loss: 2.892425
+Best Model saved in file: result/log_learning_rotation_so3_30_30/best_model.ckpt
+min eval loss: 2.892425
+the epoch of min eval loss: 123
+**** EPOCH 124 ****
+----0-----
+mean loss: 3.077459
+----1-----
+mean loss: 3.035881
+----2-----
+mean loss: 3.045084
+----3-----
+mean loss: 3.053635
+----4-----
+mean loss: 3.050854
+----5-----
+mean loss: 3.007426
+----0-----
+eval mean loss: 2.899936
+min eval loss: 2.892425
+the epoch of min eval loss: 123
+**** EPOCH 125 ****
+----0-----
+mean loss: 3.058578
+----1-----
+mean loss: 3.053085
+----2-----
+mean loss: 3.041647
+----3-----
+mean loss: 3.064966
+----4-----
+mean loss: 3.079185
+----5-----
+mean loss: 3.004143
+----0-----
+eval mean loss: 2.895868
+min eval loss: 2.892425
+the epoch of min eval loss: 123
+**** EPOCH 126 ****
+----0-----
+mean loss: 3.032440
+----1-----
+mean loss: 3.041794
+----2-----
+mean loss: 3.024741
+----3-----
+mean loss: 3.055416
+----4-----
+mean loss: 3.073580
+----5-----
+mean loss: 3.026492
+----0-----
+eval mean loss: 2.884359
+Best Model saved in file: result/log_learning_rotation_so3_30_30/best_model.ckpt
+min eval loss: 2.884359
+the epoch of min eval loss: 126
+**** EPOCH 127 ****
+----0-----
+mean loss: 3.045858
+----1-----
+mean loss: 3.041192
+----2-----
+mean loss: 3.070586
+----3-----
+mean loss: 3.072965
+----4-----
+mean loss: 3.080554
+----5-----
+mean loss: 3.010080
+----0-----
+eval mean loss: 2.919838
+min eval loss: 2.884359
+the epoch of min eval loss: 126
+**** EPOCH 128 ****
+----0-----
+mean loss: 3.015832
+----1-----
+mean loss: 3.038836
+----2-----
+mean loss: 3.063223
+----3-----
+mean loss: 3.065386
+----4-----
+mean loss: 3.043917
+----5-----
+mean loss: 2.999074
+----0-----
+eval mean loss: 2.877070
+Best Model saved in file: result/log_learning_rotation_so3_30_30/best_model.ckpt
+min eval loss: 2.877070
+the epoch of min eval loss: 128
+**** EPOCH 129 ****
+----0-----
+mean loss: 3.043510
+----1-----
+mean loss: 3.037246
+----2-----
+mean loss: 3.054391
+----3-----
+mean loss: 3.062140
+----4-----
+mean loss: 3.053873
+----5-----
+mean loss: 2.983985
+----0-----
+eval mean loss: 2.896935
+min eval loss: 2.877070
+the epoch of min eval loss: 128
+**** EPOCH 130 ****
+----0-----
+mean loss: 3.051291
+----1-----
+mean loss: 3.038605
+----2-----
+mean loss: 3.024075
+----3-----
+mean loss: 3.039057
+----4-----
+mean loss: 3.049755
+----5-----
+mean loss: 2.967583
+----0-----
+eval mean loss: 2.904290
+min eval loss: 2.877070
+the epoch of min eval loss: 128
+Model saved in file: result/log_learning_rotation_so3_30_30/model.ckpt
+**** EPOCH 131 ****
+----0-----
+mean loss: 3.042867
+----1-----
+mean loss: 3.047656
+----2-----
+mean loss: 3.029373
+----3-----
+mean loss: 3.050241
+----4-----
+mean loss: 3.065341
+----5-----
+mean loss: 2.998290
+----0-----
+eval mean loss: 2.891626
+min eval loss: 2.877070
+the epoch of min eval loss: 128
+**** EPOCH 132 ****
+----0-----
+mean loss: 3.067683
+----1-----
+mean loss: 3.039718
+----2-----
+mean loss: 3.054419
+----3-----
+mean loss: 3.074699
+----4-----
+mean loss: 3.051325
+----5-----
+mean loss: 2.995304
+----0-----
+eval mean loss: 2.867295
+Best Model saved in file: result/log_learning_rotation_so3_30_30/best_model.ckpt
+min eval loss: 2.867295
+the epoch of min eval loss: 132
+**** EPOCH 133 ****
+----0-----
+mean loss: 3.028364
+----1-----
+mean loss: 3.033593
+----2-----
+mean loss: 3.028421
+----3-----
+mean loss: 3.014629
+----4-----
+mean loss: 3.030443
+----5-----
+mean loss: 2.985166
+----0-----
+eval mean loss: 2.869996
+min eval loss: 2.867295
+the epoch of min eval loss: 132
+**** EPOCH 134 ****
+----0-----
+mean loss: 3.036883
+----1-----
+mean loss: 3.020583
+----2-----
+mean loss: 3.035194
+----3-----
+mean loss: 3.048624
+----4-----
+mean loss: 3.048479
+----5-----
+mean loss: 3.003138
+----0-----
+eval mean loss: 2.900437
+min eval loss: 2.867295
+the epoch of min eval loss: 132
+**** EPOCH 135 ****
+----0-----
+mean loss: 3.025025
+----1-----
+mean loss: 3.033014
+----2-----
+mean loss: 3.043813
+----3-----
+mean loss: 3.058952
+----4-----
+mean loss: 3.024634
+----5-----
+mean loss: 2.991125
+----0-----
+eval mean loss: 2.884545
+min eval loss: 2.867295
+the epoch of min eval loss: 132
+**** EPOCH 136 ****
+----0-----
+mean loss: 3.052147
+----1-----
+mean loss: 3.021605
+----2-----
+mean loss: 3.045302
+----3-----
+mean loss: 3.052077
+----4-----
+mean loss: 3.036064
+----5-----
+mean loss: 2.966292
+----0-----
+eval mean loss: 2.895516
+min eval loss: 2.867295
+the epoch of min eval loss: 132
+**** EPOCH 137 ****
+----0-----
+mean loss: 3.062192
+----1-----
+mean loss: 3.019719
+----2-----
+mean loss: 3.029656
+----3-----
+mean loss: 3.040907
+----4-----
+mean loss: 3.041313
+----5-----
+mean loss: 2.990293
+----0-----
+eval mean loss: 2.896904
+min eval loss: 2.867295
+the epoch of min eval loss: 132
+**** EPOCH 138 ****
+----0-----
+mean loss: 3.055367
+----1-----
+mean loss: 3.020316
+----2-----
+mean loss: 3.021970
+----3-----
+mean loss: 3.039741
+----4-----
+mean loss: 3.038969
+----5-----
+mean loss: 3.029088
+----0-----
+eval mean loss: 2.893097
+min eval loss: 2.867295
+the epoch of min eval loss: 132
+**** EPOCH 139 ****
+----0-----
+mean loss: 3.021976
+----1-----
+mean loss: 3.045656
+----2-----
+mean loss: 3.033884
+----3-----
+mean loss: 3.069521
+----4-----
+mean loss: 3.053187
+----5-----
+mean loss: 2.991878
+----0-----
+eval mean loss: 2.880566
+min eval loss: 2.867295
+the epoch of min eval loss: 132
+**** EPOCH 140 ****
+----0-----
+mean loss: 3.031834
+----1-----
+mean loss: 3.036599
+----2-----
+mean loss: 3.045281
+----3-----
+mean loss: 3.034123
+----4-----
+mean loss: 3.017118
+----5-----
+mean loss: 3.019357
+----0-----
+eval mean loss: 2.878916
+min eval loss: 2.867295
+the epoch of min eval loss: 132
+Model saved in file: result/log_learning_rotation_so3_30_30/model.ckpt
+**** EPOCH 141 ****
+----0-----
+mean loss: 3.057252
+----1-----
+mean loss: 3.029042
+----2-----
+mean loss: 3.022115
+----3-----
+mean loss: 3.039645
+----4-----
+mean loss: 3.031238
+----5-----
+mean loss: 2.952871
+----0-----
+eval mean loss: 2.884779
+min eval loss: 2.867295
+the epoch of min eval loss: 132
+**** EPOCH 142 ****
+----0-----
+mean loss: 3.024249
+----1-----
+mean loss: 3.026875
+----2-----
+mean loss: 3.027212
+----3-----
+mean loss: 3.052372
+----4-----
+mean loss: 3.023735
+----5-----
+mean loss: 3.008816
+----0-----
+eval mean loss: 2.883418
+min eval loss: 2.867295
+the epoch of min eval loss: 132
+**** EPOCH 143 ****
+----0-----
+mean loss: 3.057481
+----1-----
+mean loss: 3.021115
+----2-----
+mean loss: 3.001205
+----3-----
+mean loss: 3.050784
+----4-----
+mean loss: 3.023426
+----5-----
+mean loss: 3.004487
+----0-----
+eval mean loss: 2.862539
+Best Model saved in file: result/log_learning_rotation_so3_30_30/best_model.ckpt
+min eval loss: 2.862539
+the epoch of min eval loss: 143
+**** EPOCH 144 ****
+----0-----
+mean loss: 3.036630
+----1-----
+mean loss: 3.023557
+----2-----
+mean loss: 3.035224
+----3-----
+mean loss: 3.037567
+----4-----
+mean loss: 3.020667
+----5-----
+mean loss: 2.983413
+----0-----
+eval mean loss: 2.869270
+min eval loss: 2.862539
+the epoch of min eval loss: 143
+**** EPOCH 145 ****
+----0-----
+mean loss: 3.029433
+----1-----
+mean loss: 3.018553
+----2-----
+mean loss: 3.021143
+----3-----
+mean loss: 3.032746
+----4-----
+mean loss: 3.036777
+----5-----
+mean loss: 2.995561
+----0-----
+eval mean loss: 2.878617
+min eval loss: 2.862539
+the epoch of min eval loss: 143
+**** EPOCH 146 ****
+----0-----
+mean loss: 3.039672
+----1-----
+mean loss: 3.021352
+----2-----
+mean loss: 3.014292
+----3-----
+mean loss: 3.058181
+----4-----
+mean loss: 3.023378
+----5-----
+mean loss: 3.016069
+----0-----
+eval mean loss: 2.881014
+min eval loss: 2.862539
+the epoch of min eval loss: 143
+**** EPOCH 147 ****
+----0-----
+mean loss: 3.013115
+----1-----
+mean loss: 3.057571
+----2-----
+mean loss: 2.991223
+----3-----
+mean loss: 3.050909
+----4-----
+mean loss: 3.041269
+----5-----
+mean loss: 2.979406
+----0-----
+eval mean loss: 2.873858
+min eval loss: 2.862539
+the epoch of min eval loss: 143
+**** EPOCH 148 ****
+----0-----
+mean loss: 3.026862
+----1-----
+mean loss: 3.040552
+----2-----
+mean loss: 3.022200
+----3-----
+mean loss: 3.042476
+----4-----
+mean loss: 3.043249
+----5-----
+mean loss: 2.998640
+----0-----
+eval mean loss: 2.856749
+Best Model saved in file: result/log_learning_rotation_so3_30_30/best_model.ckpt
+min eval loss: 2.856749
+the epoch of min eval loss: 148
+**** EPOCH 149 ****
+----0-----
+mean loss: 3.037407
+----1-----
+mean loss: 3.033657
+----2-----
+mean loss: 2.994916
+----3-----
+mean loss: 3.042162
+----4-----
+mean loss: 3.051740
+----5-----
+mean loss: 2.993188
+----0-----
+eval mean loss: 2.886890
+min eval loss: 2.856749
+the epoch of min eval loss: 148
+**** EPOCH 150 ****
+----0-----
+mean loss: 3.005634
+----1-----
+mean loss: 3.024480
+----2-----
+mean loss: 3.011956
+----3-----
+mean loss: 3.034048
+----4-----
+mean loss: 3.028464
+----5-----
+mean loss: 3.007803
+----0-----
+eval mean loss: 2.876069
+min eval loss: 2.856749
+the epoch of min eval loss: 148
+Model saved in file: result/log_learning_rotation_so3_30_30/model.ckpt
+**** EPOCH 151 ****
+----0-----
+mean loss: 3.026137
+----1-----
+mean loss: 3.018900
+----2-----
+mean loss: 3.021381
+----3-----
+mean loss: 3.008153
+----4-----
+mean loss: 3.023297
+----5-----
+mean loss: 3.003241
+----0-----
+eval mean loss: 2.865084
+min eval loss: 2.856749
+the epoch of min eval loss: 148
+**** EPOCH 152 ****
+----0-----
+mean loss: 3.016021
+----1-----
+mean loss: 2.991720
+----2-----
+mean loss: 3.028642
+----3-----
+mean loss: 3.006804
+----4-----
+mean loss: 3.036336
+----5-----
+mean loss: 2.992118
+----0-----
+eval mean loss: 2.862749
+min eval loss: 2.856749
+the epoch of min eval loss: 148
+**** EPOCH 153 ****
+----0-----
+mean loss: 3.035819
+----1-----
+mean loss: 3.006498
+----2-----
+mean loss: 2.999913
+----3-----
+mean loss: 3.042397
+----4-----
+mean loss: 3.014605
+----5-----
+mean loss: 2.998019
+----0-----
+eval mean loss: 2.881732
+min eval loss: 2.856749
+the epoch of min eval loss: 148
+**** EPOCH 154 ****
+----0-----
+mean loss: 3.012443
+----1-----
+mean loss: 3.019548
+----2-----
+mean loss: 3.013288
+----3-----
+mean loss: 3.037902
+----4-----
+mean loss: 3.039680
+----5-----
+mean loss: 2.967824
+----0-----
+eval mean loss: 2.877308
+min eval loss: 2.856749
+the epoch of min eval loss: 148
+**** EPOCH 155 ****
+----0-----
+mean loss: 3.063214
+----1-----
+mean loss: 3.007661
+----2-----
+mean loss: 3.012509
+----3-----
+mean loss: 3.017020
+----4-----
+mean loss: 3.034104
+----5-----
+mean loss: 2.962064
+----0-----
+eval mean loss: 2.898527
+min eval loss: 2.856749
+the epoch of min eval loss: 148
+**** EPOCH 156 ****
+----0-----
+mean loss: 3.058726
+----1-----
+mean loss: 3.025836
+----2-----
+mean loss: 3.032467
+----3-----
+mean loss: 3.029899
+----4-----
+mean loss: 3.021083
+----5-----
+mean loss: 3.001404
+----0-----
+eval mean loss: 2.894140
+min eval loss: 2.856749
+the epoch of min eval loss: 148
+**** EPOCH 157 ****
+----0-----
+mean loss: 3.039640
+----1-----
+mean loss: 3.010692
+----2-----
+mean loss: 3.028195
+----3-----
+mean loss: 3.028608
+----4-----
+mean loss: 3.028945
+----5-----
+mean loss: 2.975149
+----0-----
+eval mean loss: 2.880675
+min eval loss: 2.856749
+the epoch of min eval loss: 148
+**** EPOCH 158 ****
+----0-----
+mean loss: 3.026632
+----1-----
+mean loss: 3.021895
+----2-----
+mean loss: 3.021740
+----3-----
+mean loss: 3.030696
+----4-----
+mean loss: 3.020667
+----5-----
+mean loss: 3.001240
+----0-----
+eval mean loss: 2.881067
+min eval loss: 2.856749
+the epoch of min eval loss: 148
+**** EPOCH 159 ****
+----0-----
+mean loss: 2.997952
+----1-----
+mean loss: 3.025400
+----2-----
+mean loss: 3.019089
+----3-----
+mean loss: 3.037719
+----4-----
+mean loss: 3.013790
+----5-----
+mean loss: 2.974204
+----0-----
+eval mean loss: 2.853699
+Best Model saved in file: result/log_learning_rotation_so3_30_30/best_model.ckpt
+min eval loss: 2.853699
+the epoch of min eval loss: 159
+**** EPOCH 160 ****
+----0-----
+mean loss: 3.005376
+----1-----
+mean loss: 3.021309
+----2-----
+mean loss: 3.046173
+----3-----
+mean loss: 3.025376
+----4-----
+mean loss: 3.010844
+----5-----
+mean loss: 2.990472
+----0-----
+eval mean loss: 2.861192
+min eval loss: 2.853699
+the epoch of min eval loss: 159
+Model saved in file: result/log_learning_rotation_so3_30_30/model.ckpt
+**** EPOCH 161 ****
+----0-----
+mean loss: 3.034358
+----1-----
+mean loss: 2.979695
+----2-----
+mean loss: 3.028045
+----3-----
+mean loss: 3.013333
+----4-----
+mean loss: 3.039206
+----5-----
+mean loss: 2.966207
+----0-----
+eval mean loss: 2.869452
+min eval loss: 2.853699
+the epoch of min eval loss: 159
+**** EPOCH 162 ****
+----0-----
+mean loss: 3.036637
+----1-----
+mean loss: 2.991749
+----2-----
+mean loss: 3.045979
+----3-----
+mean loss: 3.015199
+----4-----
+mean loss: 3.018514
+----5-----
+mean loss: 2.975194
+----0-----
+eval mean loss: 2.866473
+min eval loss: 2.853699
+the epoch of min eval loss: 159
+**** EPOCH 163 ****
+----0-----
+mean loss: 3.019354
+----1-----
+mean loss: 3.028381
+----2-----
+mean loss: 3.040812
+----3-----
+mean loss: 3.014077
+----4-----
+mean loss: 3.037584
+----5-----
+mean loss: 2.993434
+----0-----
+eval mean loss: 2.885370
+min eval loss: 2.853699
+the epoch of min eval loss: 159
+**** EPOCH 164 ****
+----0-----
+mean loss: 3.008428
+----1-----
+mean loss: 3.016204
+----2-----
+mean loss: 3.019907
+----3-----
+mean loss: 3.009972
+----4-----
+mean loss: 3.034812
+----5-----
+mean loss: 2.966532
+----0-----
+eval mean loss: 2.883482
+min eval loss: 2.853699
+the epoch of min eval loss: 159
+**** EPOCH 165 ****
+----0-----
+mean loss: 3.030158
+----1-----
+mean loss: 3.009227
+----2-----
+mean loss: 3.021970
+----3-----
+mean loss: 3.034677
+----4-----
+mean loss: 3.060479
+----5-----
+mean loss: 2.970487
+----0-----
+eval mean loss: 2.866673
+min eval loss: 2.853699
+the epoch of min eval loss: 159
+**** EPOCH 166 ****
+----0-----
+mean loss: 2.992997
+----1-----
+mean loss: 3.011021
+----2-----
+mean loss: 3.026723
+----3-----
+mean loss: 3.031289
+----4-----
+mean loss: 3.048171
+----5-----
+mean loss: 2.965163
+----0-----
+eval mean loss: 2.842574
+Best Model saved in file: result/log_learning_rotation_so3_30_30/best_model.ckpt
+min eval loss: 2.842574
+the epoch of min eval loss: 166
+**** EPOCH 167 ****
+----0-----
+mean loss: 3.029844
+----1-----
+mean loss: 3.011494
+----2-----
+mean loss: 3.008822
+----3-----
+mean loss: 3.009744
+----4-----
+mean loss: 3.031520
+----5-----
+mean loss: 2.970714
+----0-----
+eval mean loss: 2.869621
+min eval loss: 2.842574
+the epoch of min eval loss: 166
+**** EPOCH 168 ****
+----0-----
+mean loss: 3.007523
+----1-----
+mean loss: 3.021350
+----2-----
+mean loss: 2.995289
+----3-----
+mean loss: 3.030006
+----4-----
+mean loss: 3.041536
+----5-----
+mean loss: 2.972519
+----0-----
+eval mean loss: 2.861311
+min eval loss: 2.842574
+the epoch of min eval loss: 166
+**** EPOCH 169 ****
+----0-----
+mean loss: 3.006939
+----1-----
+mean loss: 3.029404
+----2-----
+mean loss: 3.053027
+----3-----
+mean loss: 3.006232
+----4-----
+mean loss: 3.027759
+----5-----
+mean loss: 2.974250
+----0-----
+eval mean loss: 2.848845
+min eval loss: 2.842574
+the epoch of min eval loss: 166
+**** EPOCH 170 ****
+----0-----
+mean loss: 3.024303
+----1-----
+mean loss: 3.011370
+----2-----
+mean loss: 3.021034
+----3-----
+mean loss: 3.036775
+----4-----
+mean loss: 3.028592
+----5-----
+mean loss: 3.004940
+----0-----
+eval mean loss: 2.872293
+min eval loss: 2.842574
+the epoch of min eval loss: 166
+Model saved in file: result/log_learning_rotation_so3_30_30/model.ckpt
+**** EPOCH 171 ****
+----0-----
+mean loss: 3.006017
+----1-----
+mean loss: 3.025026
+----2-----
+mean loss: 3.015922
+----3-----
+mean loss: 3.028500
+----4-----
+mean loss: 3.006316
+----5-----
+mean loss: 2.955429
+----0-----
+eval mean loss: 2.856326
+min eval loss: 2.842574
+the epoch of min eval loss: 166
+**** EPOCH 172 ****
+----0-----
+mean loss: 3.006023
+----1-----
+mean loss: 2.988214
+----2-----
+mean loss: 3.001103
+----3-----
+mean loss: 3.032063
+----4-----
+mean loss: 3.026417
+----5-----
+mean loss: 3.009768
+----0-----
+eval mean loss: 2.865310
+min eval loss: 2.842574
+the epoch of min eval loss: 166
+**** EPOCH 173 ****
+----0-----
+mean loss: 3.002268
+----1-----
+mean loss: 3.018752
+----2-----
+mean loss: 3.032913
+----3-----
+mean loss: 3.015205
+----4-----
+mean loss: 3.009200
+----5-----
+mean loss: 2.984767
+----0-----
+eval mean loss: 2.860383
+min eval loss: 2.842574
+the epoch of min eval loss: 166
+**** EPOCH 174 ****
+----0-----
+mean loss: 3.038519
+----1-----
+mean loss: 3.003895
+----2-----
+mean loss: 2.987842
+----3-----
+mean loss: 3.016659
+----4-----
+mean loss: 3.049540
+----5-----
+mean loss: 3.000931
+----0-----
+eval mean loss: 2.856858
+min eval loss: 2.842574
+the epoch of min eval loss: 166
+**** EPOCH 175 ****
+----0-----
+mean loss: 3.029670
+----1-----
+mean loss: 3.020883
+----2-----
+mean loss: 3.000575
+----3-----
+mean loss: 3.023112
+----4-----
+mean loss: 3.001474
+----5-----
+mean loss: 2.971861
+----0-----
+eval mean loss: 2.852211
+min eval loss: 2.842574
+the epoch of min eval loss: 166
+**** EPOCH 176 ****
+----0-----
+mean loss: 3.022834
+----1-----
+mean loss: 3.016104
+----2-----
+mean loss: 3.035467
+----3-----
+mean loss: 3.029847
+----4-----
+mean loss: 3.039749
+----5-----
+mean loss: 2.993918
+----0-----
+eval mean loss: 2.848485
+min eval loss: 2.842574
+the epoch of min eval loss: 166
+**** EPOCH 177 ****
+----0-----
+mean loss: 3.029553
+----1-----
+mean loss: 3.035251
+----2-----
+mean loss: 3.009278
+----3-----
+mean loss: 2.987341
+----4-----
+mean loss: 3.029445
+----5-----
+mean loss: 2.970423
+----0-----
+eval mean loss: 2.875442
+min eval loss: 2.842574
+the epoch of min eval loss: 166
+**** EPOCH 178 ****
+----0-----
+mean loss: 2.996020
+----1-----
+mean loss: 3.017600
+----2-----
+mean loss: 3.010563
+----3-----
+mean loss: 3.021734
+----4-----
+mean loss: 3.028708
+----5-----
+mean loss: 2.957691
+----0-----
+eval mean loss: 2.889484
+min eval loss: 2.842574
+the epoch of min eval loss: 166
+**** EPOCH 179 ****
+----0-----
+mean loss: 2.994903
+----1-----
+mean loss: 2.985681
+----2-----
+mean loss: 3.000883
+----3-----
+mean loss: 3.005140
+----4-----
+mean loss: 3.010673
+----5-----
+mean loss: 2.942503
+----0-----
+eval mean loss: 2.845656
+min eval loss: 2.842574
+the epoch of min eval loss: 166
+**** EPOCH 180 ****
+----0-----
+mean loss: 3.024835
+----1-----
+mean loss: 3.021997
+----2-----
+mean loss: 3.019226
+----3-----
+mean loss: 3.021391
+----4-----
+mean loss: 3.011942
+----5-----
+mean loss: 2.977419
+----0-----
+eval mean loss: 2.864860
+min eval loss: 2.842574
+the epoch of min eval loss: 166
+Model saved in file: result/log_learning_rotation_so3_30_30/model.ckpt
+**** EPOCH 181 ****
+----0-----
+mean loss: 3.018506
+----1-----
+mean loss: 3.005843
+----2-----
+mean loss: 3.024455
+----3-----
+mean loss: 3.020435
+----4-----
+mean loss: 3.027744
+----5-----
+mean loss: 2.965536
+----0-----
+eval mean loss: 2.868415
+min eval loss: 2.842574
+the epoch of min eval loss: 166
+**** EPOCH 182 ****
+----0-----
+mean loss: 3.006613
+----1-----
+mean loss: 2.980944
+----2-----
+mean loss: 3.023704
+----3-----
+mean loss: 3.043359
+----4-----
+mean loss: 3.039336
+----5-----
+mean loss: 2.972239
+----0-----
+eval mean loss: 2.882468
+min eval loss: 2.842574
+the epoch of min eval loss: 166
+**** EPOCH 183 ****
+----0-----
+mean loss: 3.004520
+----1-----
+mean loss: 3.014985
+----2-----
+mean loss: 3.004700
+----3-----
+mean loss: 3.069427
+----4-----
+mean loss: 3.015929
+----5-----
+mean loss: 2.949237
+----0-----
+eval mean loss: 2.865331
+min eval loss: 2.842574
+the epoch of min eval loss: 166
+**** EPOCH 184 ****
+----0-----
+mean loss: 3.011534
+----1-----
+mean loss: 2.996248
+----2-----
+mean loss: 3.013838
+----3-----
+mean loss: 3.021840
+----4-----
+mean loss: 3.028144
+----5-----
+mean loss: 2.964873
+----0-----
+eval mean loss: 2.866710
+min eval loss: 2.842574
+the epoch of min eval loss: 166
+**** EPOCH 185 ****
+----0-----
+mean loss: 3.025518
+----1-----
+mean loss: 3.014499
+----2-----
+mean loss: 3.014371
+----3-----
+mean loss: 3.012490
+----4-----
+mean loss: 3.000778
+----5-----
+mean loss: 2.979192
+----0-----
+eval mean loss: 2.872368
+min eval loss: 2.842574
+the epoch of min eval loss: 166
+**** EPOCH 186 ****
+----0-----
+mean loss: 2.996951
+----1-----
+mean loss: 3.043585
+----2-----
+mean loss: 3.008739
+----3-----
+mean loss: 3.017216
+----4-----
+mean loss: 3.038264
+----5-----
+mean loss: 2.979283
+----0-----
+eval mean loss: 2.865240
+min eval loss: 2.842574
+the epoch of min eval loss: 166
+**** EPOCH 187 ****
+----0-----
+mean loss: 3.012378
+----1-----
+mean loss: 3.006939
+----2-----
+mean loss: 3.038990
+----3-----
+mean loss: 3.028383
+----4-----
+mean loss: 2.996262
+----5-----
+mean loss: 2.964511
+----0-----
+eval mean loss: 2.837142
+Best Model saved in file: result/log_learning_rotation_so3_30_30/best_model.ckpt
+min eval loss: 2.837142
+the epoch of min eval loss: 187
+**** EPOCH 188 ****
+----0-----
+mean loss: 3.021271
+----1-----
+mean loss: 3.005053
+----2-----
+mean loss: 2.997817
+----3-----
+mean loss: 3.043124
+----4-----
+mean loss: 3.014968
+----5-----
+mean loss: 2.950501
+----0-----
+eval mean loss: 2.861475
+min eval loss: 2.837142
+the epoch of min eval loss: 187
+**** EPOCH 189 ****
+----0-----
+mean loss: 3.014164
+----1-----
+mean loss: 3.004714
+----2-----
+mean loss: 2.995433
+----3-----
+mean loss: 3.032972
+----4-----
+mean loss: 2.989116
+----5-----
+mean loss: 2.982043
+----0-----
+eval mean loss: 2.861549
+min eval loss: 2.837142
+the epoch of min eval loss: 187
+**** EPOCH 190 ****
+----0-----
+mean loss: 3.014149
+----1-----
+mean loss: 3.000717
+----2-----
+mean loss: 3.008445
+----3-----
+mean loss: 3.007794
+----4-----
+mean loss: 3.035455
+----5-----
+mean loss: 2.973373
+----0-----
+eval mean loss: 2.834331
+Best Model saved in file: result/log_learning_rotation_so3_30_30/best_model.ckpt
+min eval loss: 2.834331
+the epoch of min eval loss: 190
+Model saved in file: result/log_learning_rotation_so3_30_30/model.ckpt
+**** EPOCH 191 ****
+----0-----
+mean loss: 2.980042
+----1-----
+mean loss: 3.004711
+----2-----
+mean loss: 3.009968
+----3-----
+mean loss: 3.041552
+----4-----
+mean loss: 3.014910
+----5-----
+mean loss: 2.967868
+----0-----
+eval mean loss: 2.865842
+min eval loss: 2.834331
+the epoch of min eval loss: 190
+**** EPOCH 192 ****
+----0-----
+mean loss: 3.015175
+----1-----
+mean loss: 2.993679
+----2-----
+mean loss: 3.007719
+----3-----
+mean loss: 3.036860
+----4-----
+mean loss: 2.997623
+----5-----
+mean loss: 2.956026
+----0-----
+eval mean loss: 2.860128
+min eval loss: 2.834331
+the epoch of min eval loss: 190
+**** EPOCH 193 ****
+----0-----
+mean loss: 3.022080
+----1-----
+mean loss: 3.019720
+----2-----
+mean loss: 2.985122
+----3-----
+mean loss: 2.983940
+----4-----
+mean loss: 2.982118
+----5-----
+mean loss: 2.948078
+----0-----
+eval mean loss: 2.859947
+min eval loss: 2.834331
+the epoch of min eval loss: 190
+**** EPOCH 194 ****
+----0-----
+mean loss: 3.004855
+----1-----
+mean loss: 3.022878
+----2-----
+mean loss: 3.028050
+----3-----
+mean loss: 2.995598
+----4-----
+mean loss: 2.992240
+----5-----
+mean loss: 2.987665
+----0-----
+eval mean loss: 2.875853
+min eval loss: 2.834331
+the epoch of min eval loss: 190
+**** EPOCH 195 ****
+----0-----
+mean loss: 3.008212
+----1-----
+mean loss: 3.010039
+----2-----
+mean loss: 3.015339
+----3-----
+mean loss: 3.006905
+----4-----
+mean loss: 3.011470
+----5-----
+mean loss: 2.946012
+----0-----
+eval mean loss: 2.861553
+min eval loss: 2.834331
+the epoch of min eval loss: 190
+**** EPOCH 196 ****
+----0-----
+mean loss: 3.023468
+----1-----
+mean loss: 2.984665
+----2-----
+mean loss: 2.998636
+----3-----
+mean loss: 3.030190
+----4-----
+mean loss: 3.022652
+----5-----
+mean loss: 2.998857
+----0-----
+eval mean loss: 2.860695
+min eval loss: 2.834331
+the epoch of min eval loss: 190
+**** EPOCH 197 ****
+----0-----
+mean loss: 3.019727
+----1-----
+mean loss: 3.001660
+----2-----
+mean loss: 3.016141
+----3-----
+mean loss: 3.015771
+----4-----
+mean loss: 3.024668
+----5-----
+mean loss: 2.948628
+----0-----
+eval mean loss: 2.834739
+min eval loss: 2.834331
+the epoch of min eval loss: 190
+**** EPOCH 198 ****
+----0-----
+mean loss: 2.998431
+----1-----
+mean loss: 3.016677
+----2-----
+mean loss: 2.995047
+----3-----
+mean loss: 2.997885
+----4-----
+mean loss: 3.017891
+----5-----
+mean loss: 2.976947
+----0-----
+eval mean loss: 2.846891
+min eval loss: 2.834331
+the epoch of min eval loss: 190
+**** EPOCH 199 ****
+----0-----
+mean loss: 3.015621
+----1-----
+mean loss: 3.005311
+----2-----
+mean loss: 3.040302
+----3-----
+mean loss: 3.014240
+----4-----
+mean loss: 3.028359
+----5-----
+mean loss: 2.960331
+----0-----
+eval mean loss: 2.847046
+min eval loss: 2.834331
+the epoch of min eval loss: 190
+**** EPOCH 200 ****
+----0-----
+mean loss: 2.999529
+----1-----
+mean loss: 2.994802
+----2-----
+mean loss: 2.985641
+----3-----
+mean loss: 3.024327
+----4-----
+mean loss: 2.997753
+----5-----
+mean loss: 2.943010
+----0-----
+eval mean loss: 2.855905
+min eval loss: 2.834331
+the epoch of min eval loss: 190
+Model saved in file: result/log_learning_rotation_so3_30_30/model.ckpt
+**** EPOCH 201 ****
+----0-----
+mean loss: 2.999551
+----1-----
+mean loss: 3.008808
+----2-----
+mean loss: 3.013293
+----3-----
+mean loss: 2.987176
+----4-----
+mean loss: 3.009225
+----5-----
+mean loss: 2.953462
+----0-----
+eval mean loss: 2.862348
+min eval loss: 2.834331
+the epoch of min eval loss: 190
+**** EPOCH 202 ****
+----0-----
+mean loss: 3.012991
+----1-----
+mean loss: 2.998668
+----2-----
+mean loss: 2.991163
+----3-----
+mean loss: 3.022663
+----4-----
+mean loss: 3.010836
+----5-----
+mean loss: 2.975805
+----0-----
+eval mean loss: 2.833494
+Best Model saved in file: result/log_learning_rotation_so3_30_30/best_model.ckpt
+min eval loss: 2.833494
+the epoch of min eval loss: 202
+**** EPOCH 203 ****
+----0-----
+mean loss: 3.027416
+----1-----
+mean loss: 3.014678
+----2-----
+mean loss: 3.013605
+----3-----
+mean loss: 3.011823
+----4-----
+mean loss: 2.985579
+----5-----
+mean loss: 2.971010
+----0-----
+eval mean loss: 2.862715
+min eval loss: 2.833494
+the epoch of min eval loss: 202
+**** EPOCH 204 ****
+----0-----
+mean loss: 3.035953
+----1-----
+mean loss: 3.014101
+----2-----
+mean loss: 3.005636
+----3-----
+mean loss: 3.020991
+----4-----
+mean loss: 3.013435
+----5-----
+mean loss: 2.991989
+----0-----
+eval mean loss: 2.857063
+min eval loss: 2.833494
+the epoch of min eval loss: 202
+**** EPOCH 205 ****
+----0-----
+mean loss: 3.028743
+----1-----
+mean loss: 2.984939
+----2-----
+mean loss: 3.021443
+----3-----
+mean loss: 3.023256
+----4-----
+mean loss: 3.016504
+----5-----
+mean loss: 2.966651
+----0-----
+eval mean loss: 2.852577
+min eval loss: 2.833494
+the epoch of min eval loss: 202
+**** EPOCH 206 ****
+----0-----
+mean loss: 3.025618
+----1-----
+mean loss: 3.014080
+----2-----
+mean loss: 3.017556
+----3-----
+mean loss: 3.038078
+----4-----
+mean loss: 3.017376
+----5-----
+mean loss: 2.970185
+----0-----
+eval mean loss: 2.850131
+min eval loss: 2.833494
+the epoch of min eval loss: 202
+**** EPOCH 207 ****
+----0-----
+mean loss: 3.014230
+----1-----
+mean loss: 2.989597
+----2-----
+mean loss: 3.025168
+----3-----
+mean loss: 3.010353
+----4-----
+mean loss: 3.031635
+----5-----
+mean loss: 2.954521
+----0-----
+eval mean loss: 2.842598
+min eval loss: 2.833494
+the epoch of min eval loss: 202
+**** EPOCH 208 ****
+----0-----
+mean loss: 2.990645
+----1-----
+mean loss: 3.007433
+----2-----
+mean loss: 2.987505
+----3-----
+mean loss: 3.019764
+----4-----
+mean loss: 3.012566
+----5-----
+mean loss: 2.970115
+----0-----
+eval mean loss: 2.854343
+min eval loss: 2.833494
+the epoch of min eval loss: 202
+**** EPOCH 209 ****
+----0-----
+mean loss: 2.995693
+----1-----
+mean loss: 2.998443
+----2-----
+mean loss: 3.022147
+----3-----
+mean loss: 3.009987
+----4-----
+mean loss: 3.023382
+----5-----
+mean loss: 2.983311
+----0-----
+eval mean loss: 2.883340
+min eval loss: 2.833494
+the epoch of min eval loss: 202
+**** EPOCH 210 ****
+----0-----
+mean loss: 3.007228
+----1-----
+mean loss: 3.014550
+----2-----
+mean loss: 3.017901
+----3-----
+mean loss: 3.010958
+----4-----
+mean loss: 3.030048
+----5-----
+mean loss: 3.007146
+----0-----
+eval mean loss: 2.857566
+min eval loss: 2.833494
+the epoch of min eval loss: 202
+Model saved in file: result/log_learning_rotation_so3_30_30/model.ckpt
+**** EPOCH 211 ****
+----0-----
+mean loss: 2.991575
+----1-----
+mean loss: 2.994714
+----2-----
+mean loss: 3.013904
+----3-----
+mean loss: 2.995158
+----4-----
+mean loss: 3.008325
+----5-----
+mean loss: 2.960293
+----0-----
+eval mean loss: 2.847389
+min eval loss: 2.833494
+the epoch of min eval loss: 202
+**** EPOCH 212 ****
+----0-----
+mean loss: 3.018276
+----1-----
+mean loss: 3.017947
+----2-----
+mean loss: 3.013271
+----3-----
+mean loss: 3.003295
+----4-----
+mean loss: 3.018212
+----5-----
+mean loss: 2.967466
+----0-----
+eval mean loss: 2.837421
+min eval loss: 2.833494
+the epoch of min eval loss: 202
+**** EPOCH 213 ****
+----0-----
+mean loss: 2.999976
+----1-----
+mean loss: 3.014865
+----2-----
+mean loss: 2.999332
+----3-----
+mean loss: 2.987251
+----4-----
+mean loss: 3.006072
+----5-----
+mean loss: 2.968198
+----0-----
+eval mean loss: 2.845120
+min eval loss: 2.833494
+the epoch of min eval loss: 202
+**** EPOCH 214 ****
+----0-----
+mean loss: 2.997168
+----1-----
+mean loss: 2.991273
+----2-----
+mean loss: 3.013621
+----3-----
+mean loss: 3.012263
+----4-----
+mean loss: 2.987568
+----5-----
+mean loss: 2.966635
+----0-----
+eval mean loss: 2.842899
+min eval loss: 2.833494
+the epoch of min eval loss: 202
+**** EPOCH 215 ****
+----0-----
+mean loss: 3.007031
+----1-----
+mean loss: 3.016016
+----2-----
+mean loss: 2.973290
+----3-----
+mean loss: 3.005020
+----4-----
+mean loss: 3.021816
+----5-----
+mean loss: 2.976488
+----0-----
+eval mean loss: 2.823690
+Best Model saved in file: result/log_learning_rotation_so3_30_30/best_model.ckpt
+min eval loss: 2.823690
+the epoch of min eval loss: 215
+**** EPOCH 216 ****
+----0-----
+mean loss: 2.988972
+----1-----
+mean loss: 2.983690
+----2-----
+mean loss: 3.022416
+----3-----
+mean loss: 3.030362
+----4-----
+mean loss: 3.005331
+----5-----
+mean loss: 2.947462
+----0-----
+eval mean loss: 2.868894
+min eval loss: 2.823690
+the epoch of min eval loss: 215
+**** EPOCH 217 ****
+----0-----
+mean loss: 3.039451
+----1-----
+mean loss: 3.017880
+----2-----
+mean loss: 2.993652
+----3-----
+mean loss: 3.033993
+----4-----
+mean loss: 3.012023
+----5-----
+mean loss: 2.978610
+----0-----
+eval mean loss: 2.850325
+min eval loss: 2.823690
+the epoch of min eval loss: 215
+**** EPOCH 218 ****
+----0-----
+mean loss: 2.998670
+----1-----
+mean loss: 2.998550
+----2-----
+mean loss: 3.016729
+----3-----
+mean loss: 3.009013
+----4-----
+mean loss: 3.011251
+----5-----
+mean loss: 2.991544
+----0-----
+eval mean loss: 2.839399
+min eval loss: 2.823690
+the epoch of min eval loss: 215
+**** EPOCH 219 ****
+----0-----
+mean loss: 3.015700
+----1-----
+mean loss: 2.998153
+----2-----
+mean loss: 3.010221
+----3-----
+mean loss: 2.975258
+----4-----
+mean loss: 3.017276
+----5-----
+mean loss: 2.955927
+----0-----
+eval mean loss: 2.844201
+min eval loss: 2.823690
+the epoch of min eval loss: 215
+**** EPOCH 220 ****
+----0-----
+mean loss: 3.007533
+----1-----
+mean loss: 2.979881
+----2-----
+mean loss: 2.998848
+----3-----
+mean loss: 3.010989
+----4-----
+mean loss: 3.034946
+----5-----
+mean loss: 2.937738
+----0-----
+eval mean loss: 2.851111
+min eval loss: 2.823690
+the epoch of min eval loss: 215
+Model saved in file: result/log_learning_rotation_so3_30_30/model.ckpt
+**** EPOCH 221 ****
+----0-----
+mean loss: 3.011485
+----1-----
+mean loss: 3.007261
+----2-----
+mean loss: 3.023506
+----3-----
+mean loss: 2.994489
+----4-----
+mean loss: 3.016149
+----5-----
+mean loss: 2.979570
+----0-----
+eval mean loss: 2.849068
+min eval loss: 2.823690
+the epoch of min eval loss: 215
+**** EPOCH 222 ****
+----0-----
+mean loss: 3.008372
+----1-----
+mean loss: 2.988328
+----2-----
+mean loss: 3.000553
+----3-----
+mean loss: 3.022915
+----4-----
+mean loss: 3.026910
+----5-----
+mean loss: 2.961237
+----0-----
+eval mean loss: 2.858895
+min eval loss: 2.823690
+the epoch of min eval loss: 215
+**** EPOCH 223 ****
+----0-----
+mean loss: 3.011453
+----1-----
+mean loss: 2.977481
+----2-----
+mean loss: 3.010286
+----3-----
+mean loss: 3.042318
+----4-----
+mean loss: 3.030768
+----5-----
+mean loss: 2.968436
+----0-----
+eval mean loss: 2.846431
+min eval loss: 2.823690
+the epoch of min eval loss: 215
+**** EPOCH 224 ****
+----0-----
+mean loss: 3.016967
+----1-----
+mean loss: 3.011571
+----2-----
+mean loss: 2.999439
+----3-----
+mean loss: 2.995529
+----4-----
+mean loss: 3.004462
+----5-----
+mean loss: 2.953943
+----0-----
+eval mean loss: 2.840993
+min eval loss: 2.823690
+the epoch of min eval loss: 215
+**** EPOCH 225 ****
+----0-----
+mean loss: 3.027654
+----1-----
+mean loss: 2.998504
+----2-----
+mean loss: 2.990781
+----3-----
+mean loss: 2.984079
+----4-----
+mean loss: 2.983505
+----5-----
+mean loss: 2.988498
+----0-----
+eval mean loss: 2.846653
+min eval loss: 2.823690
+the epoch of min eval loss: 215
+**** EPOCH 226 ****
+----0-----
+mean loss: 3.006992
+----1-----
+mean loss: 3.003445
+----2-----
+mean loss: 3.012646
+----3-----
+mean loss: 3.030180
+----4-----
+mean loss: 3.001571
+----5-----
+mean loss: 2.973943
+----0-----
+eval mean loss: 2.821980
+Best Model saved in file: result/log_learning_rotation_so3_30_30/best_model.ckpt
+min eval loss: 2.821980
+the epoch of min eval loss: 226
+**** EPOCH 227 ****
+----0-----
+mean loss: 2.998153
+----1-----
+mean loss: 2.978244
+----2-----
+mean loss: 2.975474
+----3-----
+mean loss: 3.003579
+----4-----
+mean loss: 2.992380
+----5-----
+mean loss: 2.966157
+----0-----
+eval mean loss: 2.848767
+min eval loss: 2.821980
+the epoch of min eval loss: 226
+**** EPOCH 228 ****
+----0-----
+mean loss: 3.030283
+----1-----
+mean loss: 3.016185
+----2-----
+mean loss: 3.001742
+----3-----
+mean loss: 3.010524
+----4-----
+mean loss: 3.048718
+----5-----
+mean loss: 2.963539
+----0-----
+eval mean loss: 2.861023
+min eval loss: 2.821980
+the epoch of min eval loss: 226
+**** EPOCH 229 ****
+----0-----
+mean loss: 2.983743
+----1-----
+mean loss: 3.028373
+----2-----
+mean loss: 2.986827
+----3-----
+mean loss: 2.996521
+----4-----
+mean loss: 3.021164
+----5-----
+mean loss: 2.957491
+----0-----
+eval mean loss: 2.853727
+min eval loss: 2.821980
+the epoch of min eval loss: 226
+**** EPOCH 230 ****
+----0-----
+mean loss: 2.990877
+----1-----
+mean loss: 3.022530
+----2-----
+mean loss: 3.030041
+----3-----
+mean loss: 3.047172
+----4-----
+mean loss: 3.010226
+----5-----
+mean loss: 2.948681
+----0-----
+eval mean loss: 2.842493
+min eval loss: 2.821980
+the epoch of min eval loss: 226
+Model saved in file: result/log_learning_rotation_so3_30_30/model.ckpt
+**** EPOCH 231 ****
+----0-----
+mean loss: 3.022001
+----1-----
+mean loss: 3.029490
+----2-----
+mean loss: 2.968267
+----3-----
+mean loss: 3.033222
+----4-----
+mean loss: 2.986022
+----5-----
+mean loss: 2.983956
+----0-----
+eval mean loss: 2.838594
+min eval loss: 2.821980
+the epoch of min eval loss: 226
+**** EPOCH 232 ****
+----0-----
+mean loss: 2.999038
+----1-----
+mean loss: 2.984018
+----2-----
+mean loss: 3.023103
+----3-----
+mean loss: 3.008640
+----4-----
+mean loss: 3.010016
+----5-----
+mean loss: 2.970195
+----0-----
+eval mean loss: 2.842386
+min eval loss: 2.821980
+the epoch of min eval loss: 226
+**** EPOCH 233 ****
+----0-----
+mean loss: 3.014144
+----1-----
+mean loss: 3.013182
+----2-----
+mean loss: 3.034137
+----3-----
+mean loss: 3.026114
+----4-----
+mean loss: 2.988385
+----5-----
+mean loss: 2.966787
+----0-----
+eval mean loss: 2.847649
+min eval loss: 2.821980
+the epoch of min eval loss: 226
+**** EPOCH 234 ****
+----0-----
+mean loss: 3.026400
+----1-----
+mean loss: 2.987668
+----2-----
+mean loss: 3.010902
+----3-----
+mean loss: 3.031742
+----4-----
+mean loss: 3.029928
+----5-----
+mean loss: 2.929492
+----0-----
+eval mean loss: 2.830348
+min eval loss: 2.821980
+the epoch of min eval loss: 226
+**** EPOCH 235 ****
+----0-----
+mean loss: 2.976543
+----1-----
+mean loss: 3.008932
+----2-----
+mean loss: 2.992626
+----3-----
+mean loss: 3.023840
+----4-----
+mean loss: 2.998068
+----5-----
+mean loss: 2.995422
+----0-----
+eval mean loss: 2.851618
+min eval loss: 2.821980
+the epoch of min eval loss: 226
+**** EPOCH 236 ****
+----0-----
+mean loss: 2.996949
+----1-----
+mean loss: 2.963733
+----2-----
+mean loss: 3.021323
+----3-----
+mean loss: 3.017961
+----4-----
+mean loss: 2.998046
+----5-----
+mean loss: 2.975409
+----0-----
+eval mean loss: 2.848930
+min eval loss: 2.821980
+the epoch of min eval loss: 226
+**** EPOCH 237 ****
+----0-----
+mean loss: 2.997621
+----1-----
+mean loss: 2.972790
+----2-----
+mean loss: 3.001600
+----3-----
+mean loss: 3.007676
+----4-----
+mean loss: 3.005440
+----5-----
+mean loss: 2.937940
+----0-----
+eval mean loss: 2.833148
+min eval loss: 2.821980
+the epoch of min eval loss: 226
+**** EPOCH 238 ****
+----0-----
+mean loss: 3.013436
+----1-----
+mean loss: 2.949923
+----2-----
+mean loss: 3.017272
+----3-----
+mean loss: 2.989807
+----4-----
+mean loss: 3.013067
+----5-----
+mean loss: 2.975498
+----0-----
+eval mean loss: 2.866772
+min eval loss: 2.821980
+the epoch of min eval loss: 226
+**** EPOCH 239 ****
+----0-----
+mean loss: 3.007531
+----1-----
+mean loss: 3.012346
+----2-----
+mean loss: 3.001886
+----3-----
+mean loss: 3.011803
+----4-----
+mean loss: 2.993036
+----5-----
+mean loss: 2.958917
+----0-----
+eval mean loss: 2.838781
+min eval loss: 2.821980
+the epoch of min eval loss: 226
+**** EPOCH 240 ****
+----0-----
+mean loss: 3.002821
+----1-----
+mean loss: 3.017717
+----2-----
+mean loss: 2.985333
+----3-----
+mean loss: 3.009210
+----4-----
+mean loss: 3.001268
+----5-----
+mean loss: 2.962388
+----0-----
+eval mean loss: 2.853571
+min eval loss: 2.821980
+the epoch of min eval loss: 226
+Model saved in file: result/log_learning_rotation_so3_30_30/model.ckpt
+**** EPOCH 241 ****
+----0-----
+mean loss: 3.002793
+----1-----
+mean loss: 2.980245
+----2-----
+mean loss: 3.022242
+----3-----
+mean loss: 3.013681
+----4-----
+mean loss: 3.023762
+----5-----
+mean loss: 2.956924
+----0-----
+eval mean loss: 2.845997
+min eval loss: 2.821980
+the epoch of min eval loss: 226
+**** EPOCH 242 ****
+----0-----
+mean loss: 2.979177
+----1-----
+mean loss: 3.014089
+----2-----
+mean loss: 3.010327
+----3-----
+mean loss: 3.029114
+----4-----
+mean loss: 3.009599
+----5-----
+mean loss: 2.953828
+----0-----
+eval mean loss: 2.857581
+min eval loss: 2.821980
+the epoch of min eval loss: 226
+**** EPOCH 243 ****
+----0-----
+mean loss: 3.009270
+----1-----
+mean loss: 2.987643
+----2-----
+mean loss: 2.957750
+----3-----
+mean loss: 3.022004
+----4-----
+mean loss: 2.996507
+----5-----
+mean loss: 3.010318
+----0-----
+eval mean loss: 2.846732
+min eval loss: 2.821980
+the epoch of min eval loss: 226
+**** EPOCH 244 ****
+----0-----
+mean loss: 3.026370
+----1-----
+mean loss: 2.960167
+----2-----
+mean loss: 2.978109
+----3-----
+mean loss: 3.036929
+----4-----
+mean loss: 3.021998
+----5-----
+mean loss: 2.958366
+----0-----
+eval mean loss: 2.837027
+min eval loss: 2.821980
+the epoch of min eval loss: 226
+**** EPOCH 245 ****
+----0-----
+mean loss: 3.007232
+----1-----
+mean loss: 2.973502
+----2-----
+mean loss: 2.982856
+----3-----
+mean loss: 3.024074
+----4-----
+mean loss: 2.975978
+----5-----
+mean loss: 2.969796
+----0-----
+eval mean loss: 2.842931
+min eval loss: 2.821980
+the epoch of min eval loss: 226
+**** EPOCH 246 ****
+----0-----
+mean loss: 2.986358
+----1-----
+mean loss: 3.008210
+----2-----
+mean loss: 2.996786
+----3-----
+mean loss: 3.006297
+----4-----
+mean loss: 3.004620
+----5-----
+mean loss: 2.964947
+----0-----
+eval mean loss: 2.846360
+min eval loss: 2.821980
+the epoch of min eval loss: 226
+**** EPOCH 247 ****
+----0-----
+mean loss: 3.004780
+----1-----
+mean loss: 2.991141
+----2-----
+mean loss: 2.996109
+----3-----
+mean loss: 3.024552
+----4-----
+mean loss: 2.979535
+----5-----
+mean loss: 2.931361
+----0-----
+eval mean loss: 2.856930
+min eval loss: 2.821980
+the epoch of min eval loss: 226
+**** EPOCH 248 ****
+----0-----
+mean loss: 3.010915
+----1-----
+mean loss: 2.996842
+----2-----
+mean loss: 2.994467
+----3-----
+mean loss: 3.001046
+----4-----
+mean loss: 3.024337
+----5-----
+mean loss: 2.952715
+----0-----
+eval mean loss: 2.863338
+min eval loss: 2.821980
+the epoch of min eval loss: 226
+**** EPOCH 249 ****
+----0-----
+mean loss: 3.010111
+----1-----
+mean loss: 3.005507
+----2-----
+mean loss: 2.980604
+----3-----
+mean loss: 3.026834
+----4-----
+mean loss: 3.000433
+----5-----
+mean loss: 2.958205
+----0-----
+eval mean loss: 2.825265
+min eval loss: 2.821980
+the epoch of min eval loss: 226
+**** EPOCH 250 ****
+----0-----
+mean loss: 3.025590
+----1-----
+mean loss: 2.973461
+----2-----
+mean loss: 2.982894
+----3-----
+mean loss: 3.011550
+----4-----
+mean loss: 3.018815
+----5-----
+mean loss: 2.954747
+----0-----
+eval mean loss: 2.847273
+min eval loss: 2.821980
+the epoch of min eval loss: 226
+Model saved in file: result/log_learning_rotation_so3_30_30/model.ckpt
+**** EPOCH 251 ****
+----0-----
+mean loss: 3.035454
+----1-----
+mean loss: 3.010976
+----2-----
+mean loss: 2.997921
+----3-----
+mean loss: 3.017296
+----4-----
+mean loss: 3.020235
+----5-----
+mean loss: 2.948517
+----0-----
+eval mean loss: 2.834087
+min eval loss: 2.821980
+the epoch of min eval loss: 226
+**** EPOCH 252 ****
+----0-----
+mean loss: 2.993362
+----1-----
+mean loss: 3.012600
+----2-----
+mean loss: 2.993637
+----3-----
+mean loss: 3.012832
+----4-----
+mean loss: 2.970376
+----5-----
+mean loss: 2.954864
+----0-----
+eval mean loss: 2.844161
+min eval loss: 2.821980
+the epoch of min eval loss: 226
+**** EPOCH 253 ****
+----0-----
+mean loss: 3.026696
+----1-----
+mean loss: 3.008389
+----2-----
+mean loss: 2.974740
+----3-----
+mean loss: 3.030603
+----4-----
+mean loss: 3.017879
+----5-----
+mean loss: 2.954916
+----0-----
+eval mean loss: 2.859474
+min eval loss: 2.821980
+the epoch of min eval loss: 226
+**** EPOCH 254 ****
+----0-----
+mean loss: 2.987305
+----1-----
+mean loss: 2.994403
+----2-----
+mean loss: 3.031553
+----3-----
+mean loss: 2.998954
+----4-----
+mean loss: 3.029174
+----5-----
+mean loss: 2.986517
+----0-----
+eval mean loss: 2.842850
+min eval loss: 2.821980
+the epoch of min eval loss: 226
+**** EPOCH 255 ****
+----0-----
+mean loss: 3.001629
+----1-----
+mean loss: 2.986538
+----2-----
+mean loss: 2.994292
+----3-----
+mean loss: 2.967317
+----4-----
+mean loss: 3.034528
+----5-----
+mean loss: 2.961684
+----0-----
+eval mean loss: 2.870257
+min eval loss: 2.821980
+the epoch of min eval loss: 226
+**** EPOCH 256 ****
+----0-----
+mean loss: 2.993605
+----1-----
+mean loss: 2.967212
+----2-----
+mean loss: 3.022592
+----3-----
+mean loss: 2.965066
+----4-----
+mean loss: 3.008439
+----5-----
+mean loss: 3.009068
+----0-----
+eval mean loss: 2.843384
+min eval loss: 2.821980
+the epoch of min eval loss: 226
+**** EPOCH 257 ****
+----0-----
+mean loss: 2.976553
+----1-----
+mean loss: 2.995181
+----2-----
+mean loss: 2.996092
+----3-----
+mean loss: 2.995148
+----4-----
+mean loss: 3.003600
+----5-----
+mean loss: 2.984506
+----0-----
+eval mean loss: 2.860309
+min eval loss: 2.821980
+the epoch of min eval loss: 226
+**** EPOCH 258 ****
+----0-----
+mean loss: 3.029615
+----1-----
+mean loss: 3.003961
+----2-----
+mean loss: 3.023743
+----3-----
+mean loss: 3.015122
+----4-----
+mean loss: 2.989304
+----5-----
+mean loss: 2.946203
+----0-----
+eval mean loss: 2.862179
+min eval loss: 2.821980
+the epoch of min eval loss: 226
+**** EPOCH 259 ****
+----0-----
+mean loss: 2.980230
+----1-----
+mean loss: 2.987297
+----2-----
+mean loss: 3.023764
+----3-----
+mean loss: 2.996058
+----4-----
+mean loss: 3.000224
+----5-----
+mean loss: 2.940595
+----0-----
+eval mean loss: 2.836810
+min eval loss: 2.821980
+the epoch of min eval loss: 226
+**** EPOCH 260 ****
+----0-----
+mean loss: 2.990610
+----1-----
+mean loss: 2.973695
+----2-----
+mean loss: 3.007428
+----3-----
+mean loss: 3.017858
+----4-----
+mean loss: 3.011157
+----5-----
+mean loss: 2.949591
+----0-----
+eval mean loss: 2.837498
+min eval loss: 2.821980
+the epoch of min eval loss: 226
+Model saved in file: result/log_learning_rotation_so3_30_30/model.ckpt
+**** EPOCH 261 ****
+----0-----
+mean loss: 2.981539
+----1-----
+mean loss: 2.993312
+----2-----
+mean loss: 2.987349
+----3-----
+mean loss: 2.989242
+----4-----
+mean loss: 2.978531
+----5-----
+mean loss: 2.982219
+----0-----
+eval mean loss: 2.840456
+min eval loss: 2.821980
+the epoch of min eval loss: 226
+**** EPOCH 262 ****
+----0-----
+mean loss: 3.006002
+----1-----
+mean loss: 2.981549
+----2-----
+mean loss: 3.014797
+----3-----
+mean loss: 2.992196
+----4-----
+mean loss: 3.009160
+----5-----
+mean loss: 2.949952
+----0-----
+eval mean loss: 2.839796
+min eval loss: 2.821980
+the epoch of min eval loss: 226
+**** EPOCH 263 ****
+----0-----
+mean loss: 3.010586
+----1-----
+mean loss: 2.968560
+----2-----
+mean loss: 3.008460
+----3-----
+mean loss: 3.025342
+----4-----
+mean loss: 2.984377
+----5-----
+mean loss: 2.943300
+----0-----
+eval mean loss: 2.845638
+min eval loss: 2.821980
+the epoch of min eval loss: 226
+**** EPOCH 264 ****
+----0-----
+mean loss: 3.003399
+----1-----
+mean loss: 3.003631
+----2-----
+mean loss: 2.994867
+----3-----
+mean loss: 2.982472
+----4-----
+mean loss: 3.034306
+----5-----
+mean loss: 2.949516
+----0-----
+eval mean loss: 2.853198
+min eval loss: 2.821980
+the epoch of min eval loss: 226
+**** EPOCH 265 ****
+----0-----
+mean loss: 3.025853
+----1-----
+mean loss: 2.993678
+----2-----
+mean loss: 3.006998
+----3-----
+mean loss: 3.028375
+----4-----
+mean loss: 3.036073
+----5-----
+mean loss: 2.955883
+----0-----
+eval mean loss: 2.878566
+min eval loss: 2.821980
+the epoch of min eval loss: 226
+**** EPOCH 266 ****
+----0-----
+mean loss: 3.006303
+----1-----
+mean loss: 3.018354
+----2-----
+mean loss: 3.001525
+----3-----
+mean loss: 2.998821
+----4-----
+mean loss: 3.016261
+----5-----
+mean loss: 2.966141
+----0-----
+eval mean loss: 2.851339
+min eval loss: 2.821980
+the epoch of min eval loss: 226
+**** EPOCH 267 ****
+----0-----
+mean loss: 3.017276
+----1-----
+mean loss: 3.016339
+----2-----
+mean loss: 2.997486
+----3-----
+mean loss: 3.009234
+----4-----
+mean loss: 2.997250
+----5-----
+mean loss: 2.937913
+----0-----
+eval mean loss: 2.822886
+min eval loss: 2.821980
+the epoch of min eval loss: 226
+**** EPOCH 268 ****
+----0-----
+mean loss: 3.014221
+----1-----
+mean loss: 2.993987
+----2-----
+mean loss: 2.966710
+----3-----
+mean loss: 3.017733
+----4-----
+mean loss: 3.032491
+----5-----
+mean loss: 2.951756
+----0-----
+eval mean loss: 2.843812
+min eval loss: 2.821980
+the epoch of min eval loss: 226
+**** EPOCH 269 ****
+----0-----
+mean loss: 2.976876
+----1-----
+mean loss: 2.998311
+----2-----
+mean loss: 2.988130
+----3-----
+mean loss: 2.992612
+----4-----
+mean loss: 2.980242
+----5-----
+mean loss: 2.976826
+----0-----
+eval mean loss: 2.849490
+min eval loss: 2.821980
+the epoch of min eval loss: 226
+**** EPOCH 270 ****
+----0-----
+mean loss: 2.992862
+----1-----
+mean loss: 3.000626
+----2-----
+mean loss: 2.977219
+----3-----
+mean loss: 3.007580
+----4-----
+mean loss: 2.995876
+----5-----
+mean loss: 2.931664
+----0-----
+eval mean loss: 2.838094
+min eval loss: 2.821980
+the epoch of min eval loss: 226
+Model saved in file: result/log_learning_rotation_so3_30_30/model.ckpt
+**** EPOCH 271 ****
+----0-----
+mean loss: 3.007412
+----1-----
+mean loss: 2.999941
+----2-----
+mean loss: 2.986546
+----3-----
+mean loss: 3.021385
+----4-----
+mean loss: 2.993650
+----5-----
+mean loss: 2.976244
+----0-----
+eval mean loss: 2.828082
+min eval loss: 2.821980
+the epoch of min eval loss: 226
+**** EPOCH 272 ****
+----0-----
+mean loss: 2.993162
+----1-----
+mean loss: 2.973337
+----2-----
+mean loss: 2.986370
+----3-----
+mean loss: 3.010864
+----4-----
+mean loss: 2.994582
+----5-----
+mean loss: 2.976859
+----0-----
+eval mean loss: 2.850561
+min eval loss: 2.821980
+the epoch of min eval loss: 226
+**** EPOCH 273 ****
+----0-----
+mean loss: 2.984103
+----1-----
+mean loss: 2.994102
+----2-----
+mean loss: 2.995716
+----3-----
+mean loss: 3.002342
+----4-----
+mean loss: 3.006362
+----5-----
+mean loss: 2.985015
+----0-----
+eval mean loss: 2.835256
+min eval loss: 2.821980
+the epoch of min eval loss: 226
+**** EPOCH 274 ****
+----0-----
+mean loss: 2.990589
+----1-----
+mean loss: 3.012173
+----2-----
+mean loss: 2.950159
+----3-----
+mean loss: 2.997498
+----4-----
+mean loss: 3.000659
+----5-----
+mean loss: 2.939882
+----0-----
+eval mean loss: 2.830771
+min eval loss: 2.821980
+the epoch of min eval loss: 226
+**** EPOCH 275 ****
+----0-----
+mean loss: 2.978871
+----1-----
+mean loss: 2.982533
+----2-----
+mean loss: 2.984118
+----3-----
+mean loss: 3.005888
+----4-----
+mean loss: 2.989174
+----5-----
+mean loss: 2.954966
+----0-----
+eval mean loss: 2.865516
+min eval loss: 2.821980
+the epoch of min eval loss: 226
+**** EPOCH 276 ****
+----0-----
+mean loss: 3.002706
+----1-----
+mean loss: 3.001845
+----2-----
+mean loss: 3.015658
+----3-----
+mean loss: 3.004732
+----4-----
+mean loss: 3.025096
+----5-----
+mean loss: 2.941388
+----0-----
+eval mean loss: 2.842004
+min eval loss: 2.821980
+the epoch of min eval loss: 226
+**** EPOCH 277 ****
+----0-----
+mean loss: 2.993476
+----1-----
+mean loss: 2.976998
+----2-----
+mean loss: 3.014694
+----3-----
+mean loss: 2.975104
+----4-----
+mean loss: 3.013506
+----5-----
+mean loss: 2.961822
+----0-----
+eval mean loss: 2.831947
+min eval loss: 2.821980
+the epoch of min eval loss: 226
+**** EPOCH 278 ****
+----0-----
+mean loss: 2.991060
+----1-----
+mean loss: 2.974347
+----2-----
+mean loss: 2.991301
+----3-----
+mean loss: 3.007988
+----4-----
+mean loss: 3.006195
+----5-----
+mean loss: 2.945821
+----0-----
+eval mean loss: 2.855254
+min eval loss: 2.821980
+the epoch of min eval loss: 226
+**** EPOCH 279 ****
+----0-----
+mean loss: 2.998499
+----1-----
+mean loss: 2.985498
+----2-----
+mean loss: 2.966362
+----3-----
+mean loss: 3.014970
+----4-----
+mean loss: 2.994961
+----5-----
+mean loss: 2.965621
+----0-----
+eval mean loss: 2.869532
+min eval loss: 2.821980
+the epoch of min eval loss: 226
+**** EPOCH 280 ****
+----0-----
+mean loss: 3.028059
+----1-----
+mean loss: 3.002521
+----2-----
+mean loss: 2.973218
+----3-----
+mean loss: 2.982073
+----4-----
+mean loss: 3.002605
+----5-----
+mean loss: 2.948092
+----0-----
+eval mean loss: 2.836904
+min eval loss: 2.821980
+the epoch of min eval loss: 226
+Model saved in file: result/log_learning_rotation_so3_30_30/model.ckpt
+**** EPOCH 281 ****
+----0-----
+mean loss: 2.985257
+----1-----
+mean loss: 3.012540
+----2-----
+mean loss: 2.993167
+----3-----
+mean loss: 3.011598
+----4-----
+mean loss: 2.985857
+----5-----
+mean loss: 2.952393
+----0-----
+eval mean loss: 2.821952
+Best Model saved in file: result/log_learning_rotation_so3_30_30/best_model.ckpt
+min eval loss: 2.821952
+the epoch of min eval loss: 281
+**** EPOCH 282 ****
+----0-----
+mean loss: 2.977362
+----1-----
+mean loss: 2.997367
+----2-----
+mean loss: 2.992089
+----3-----
+mean loss: 3.002783
+----4-----
+mean loss: 3.018388
+----5-----
+mean loss: 2.964515
+----0-----
+eval mean loss: 2.852610
+min eval loss: 2.821952
+the epoch of min eval loss: 281
+**** EPOCH 283 ****
+----0-----
+mean loss: 2.994415
+----1-----
+mean loss: 2.992525
+----2-----
+mean loss: 3.011894
+----3-----
+mean loss: 3.029646
+----4-----
+mean loss: 2.976541
+----5-----
+mean loss: 2.981007
+----0-----
+eval mean loss: 2.857302
+min eval loss: 2.821952
+the epoch of min eval loss: 281
+**** EPOCH 284 ****
+----0-----
+mean loss: 3.016363
+----1-----
+mean loss: 3.005319
+----2-----
+mean loss: 2.988172
+----3-----
+mean loss: 3.004045
+----4-----
+mean loss: 2.977053
+----5-----
+mean loss: 2.957371
+----0-----
+eval mean loss: 2.855410
+min eval loss: 2.821952
+the epoch of min eval loss: 281
+**** EPOCH 285 ****
+----0-----
+mean loss: 3.015172
+----1-----
+mean loss: 2.993222
+----2-----
+mean loss: 2.983267
+----3-----
+mean loss: 3.009580
+----4-----
+mean loss: 2.998388
+----5-----
+mean loss: 2.958942
+----0-----
+eval mean loss: 2.839843
+min eval loss: 2.821952
+the epoch of min eval loss: 281
+**** EPOCH 286 ****
+----0-----
+mean loss: 3.000573
+----1-----
+mean loss: 2.989370
+----2-----
+mean loss: 2.980556
+----3-----
+mean loss: 3.009060
+----4-----
+mean loss: 3.023300
+----5-----
+mean loss: 2.959150
+----0-----
+eval mean loss: 2.837767
+min eval loss: 2.821952
+the epoch of min eval loss: 281
+**** EPOCH 287 ****
+----0-----
+mean loss: 2.991682
+----1-----
+mean loss: 2.984306
+----2-----
+mean loss: 2.987125
+----3-----
+mean loss: 2.994803
+----4-----
+mean loss: 3.007876
+----5-----
+mean loss: 2.959958
+----0-----
+eval mean loss: 2.846937
+min eval loss: 2.821952
+the epoch of min eval loss: 281
+**** EPOCH 288 ****
+----0-----
+mean loss: 2.987709
+----1-----
+mean loss: 2.991178
+----2-----
+mean loss: 2.981075
+----3-----
+mean loss: 3.002833
+----4-----
+mean loss: 3.005167
+----5-----
+mean loss: 2.970187
+----0-----
+eval mean loss: 2.858712
+min eval loss: 2.821952
+the epoch of min eval loss: 281
+**** EPOCH 289 ****
+----0-----
+mean loss: 2.988802
+----1-----
+mean loss: 3.020369
+----2-----
+mean loss: 3.018223
+----3-----
+mean loss: 3.031811
+----4-----
+mean loss: 3.017947
+----5-----
+mean loss: 2.975744
+----0-----
+eval mean loss: 2.842374
+min eval loss: 2.821952
+the epoch of min eval loss: 281
+**** EPOCH 290 ****
+----0-----
+mean loss: 3.009025
+----1-----
+mean loss: 2.982604
+----2-----
+mean loss: 3.001506
+----3-----
+mean loss: 2.996467
+----4-----
+mean loss: 2.979848
+----5-----
+mean loss: 2.980643
+----0-----
+eval mean loss: 2.846626
+min eval loss: 2.821952
+the epoch of min eval loss: 281
+Model saved in file: result/log_learning_rotation_so3_30_30/model.ckpt
+**** EPOCH 291 ****
+----0-----
+mean loss: 2.993155
+----1-----
+mean loss: 2.986811
+----2-----
+mean loss: 3.008522
+----3-----
+mean loss: 2.990827
+----4-----
+mean loss: 2.992638
+----5-----
+mean loss: 2.964546
+----0-----
+eval mean loss: 2.858759
+min eval loss: 2.821952
+the epoch of min eval loss: 281
+**** EPOCH 292 ****
+----0-----
+mean loss: 3.010364
+----1-----
+mean loss: 2.990181
+----2-----
+mean loss: 3.013878
+----3-----
+mean loss: 3.010524
+----4-----
+mean loss: 3.020640
+----5-----
+mean loss: 2.972036
+----0-----
+eval mean loss: 2.851480
+min eval loss: 2.821952
+the epoch of min eval loss: 281
+**** EPOCH 293 ****
+----0-----
+mean loss: 2.999197
+----1-----
+mean loss: 2.989233
+----2-----
+mean loss: 2.974491
+----3-----
+mean loss: 2.998607
+----4-----
+mean loss: 3.027690
+----5-----
+mean loss: 2.964827
+----0-----
+eval mean loss: 2.838302
+min eval loss: 2.821952
+the epoch of min eval loss: 281
+**** EPOCH 294 ****
+----0-----
+mean loss: 3.038496
+----1-----
+mean loss: 2.999625
+----2-----
+mean loss: 3.014283
+----3-----
+mean loss: 2.994227
+----4-----
+mean loss: 2.999518
+----5-----
+mean loss: 2.949209
+----0-----
+eval mean loss: 2.843548
+min eval loss: 2.821952
+the epoch of min eval loss: 281
+**** EPOCH 295 ****
+----0-----
+mean loss: 3.011023
+----1-----
+mean loss: 3.000482
+----2-----
+mean loss: 2.988366
+----3-----
+mean loss: 2.999834
+----4-----
+mean loss: 3.022577
+----5-----
+mean loss: 2.977862
+----0-----
+eval mean loss: 2.818475
+Best Model saved in file: result/log_learning_rotation_so3_30_30/best_model.ckpt
+min eval loss: 2.818475
+the epoch of min eval loss: 295
+**** EPOCH 296 ****
+----0-----
+mean loss: 2.973044
+----1-----
+mean loss: 2.975954
+----2-----
+mean loss: 3.013977
+----3-----
+mean loss: 3.001918
+----4-----
+mean loss: 3.005800
+----5-----
+mean loss: 2.980279
+----0-----
+eval mean loss: 2.836300
+min eval loss: 2.818475
+the epoch of min eval loss: 295
+**** EPOCH 297 ****
+----0-----
+mean loss: 3.004761
+----1-----
+mean loss: 3.012049
+----2-----
+mean loss: 2.981027
+----3-----
+mean loss: 2.987640
+----4-----
+mean loss: 3.005940
+----5-----
+mean loss: 2.949344
+----0-----
+eval mean loss: 2.831038
+min eval loss: 2.818475
+the epoch of min eval loss: 295
+**** EPOCH 298 ****
+----0-----
+mean loss: 3.006667
+----1-----
+mean loss: 3.016898
+----2-----
+mean loss: 3.011146
+----3-----
+mean loss: 2.986164
+----4-----
+mean loss: 3.011067
+----5-----
+mean loss: 2.955712
+----0-----
+eval mean loss: 2.865578
+min eval loss: 2.818475
+the epoch of min eval loss: 295
+**** EPOCH 299 ****
+----0-----
+mean loss: 2.988686
+----1-----
+mean loss: 2.994939
+----2-----
+mean loss: 2.982851
+----3-----
+mean loss: 2.995840
+----4-----
+mean loss: 3.013264
+----5-----
+mean loss: 2.969504
+----0-----
+eval mean loss: 2.828348
+min eval loss: 2.818475
+the epoch of min eval loss: 295
+**** EPOCH 300 ****
+----0-----
+mean loss: 3.001849
+----1-----
+mean loss: 2.999354
+----2-----
+mean loss: 2.984707
+----3-----
+mean loss: 2.988516
+----4-----
+mean loss: 3.002869
+----5-----
+mean loss: 2.932257
+----0-----
+eval mean loss: 2.856617
+min eval loss: 2.818475
+the epoch of min eval loss: 295
+Model saved in file: result/log_learning_rotation_so3_30_30/model.ckpt
+**** EPOCH 301 ****
+----0-----
+mean loss: 3.001000
+----1-----
+mean loss: 3.022623
+----2-----
+mean loss: 2.995885
+----3-----
+mean loss: 3.032816
+----4-----
+mean loss: 3.014386
+----5-----
+mean loss: 2.974602
+----0-----
+eval mean loss: 2.849942
+min eval loss: 2.818475
+the epoch of min eval loss: 295
+**** EPOCH 302 ****
+----0-----
+mean loss: 3.000773
+----1-----
+mean loss: 2.974182
+----2-----
+mean loss: 2.981659
+----3-----
+mean loss: 3.006994
+----4-----
+mean loss: 3.008239
+----5-----
+mean loss: 2.952066
+----0-----
+eval mean loss: 2.844946
+min eval loss: 2.818475
+the epoch of min eval loss: 295
+**** EPOCH 303 ****
+----0-----
+mean loss: 2.991934
+----1-----
+mean loss: 2.984979
+----2-----
+mean loss: 3.001998
+----3-----
+mean loss: 2.998469
+----4-----
+mean loss: 3.007567
+----5-----
+mean loss: 2.954944
+----0-----
+eval mean loss: 2.864529
+min eval loss: 2.818475
+the epoch of min eval loss: 295
+**** EPOCH 304 ****
+----0-----
+mean loss: 3.008555
+----1-----
+mean loss: 3.000519
+----2-----
+mean loss: 3.003732
+----3-----
+mean loss: 3.007332
+----4-----
+mean loss: 3.007274
+----5-----
+mean loss: 2.969884
+----0-----
+eval mean loss: 2.845526
+min eval loss: 2.818475
+the epoch of min eval loss: 295
+**** EPOCH 305 ****
+----0-----
+mean loss: 3.018895
+----1-----
+mean loss: 2.969535
+----2-----
+mean loss: 3.000849
+----3-----
+mean loss: 3.005571
+----4-----
+mean loss: 3.023406
+----5-----
+mean loss: 2.953478
+----0-----
+eval mean loss: 2.843623
+min eval loss: 2.818475
+the epoch of min eval loss: 295
+**** EPOCH 306 ****
+----0-----
+mean loss: 3.008815
+----1-----
+mean loss: 2.984781
+----2-----
+mean loss: 2.976392
+----3-----
+mean loss: 3.034473
+----4-----
+mean loss: 3.027086
+----5-----
+mean loss: 2.956114
+----0-----
+eval mean loss: 2.835115
+min eval loss: 2.818475
+the epoch of min eval loss: 295
+**** EPOCH 307 ****
+----0-----
+mean loss: 3.005211
+----1-----
+mean loss: 2.989846
+----2-----
+mean loss: 2.977759
+----3-----
+mean loss: 2.995143
+----4-----
+mean loss: 2.994225
+----5-----
+mean loss: 2.943432
+----0-----
+eval mean loss: 2.847180
+min eval loss: 2.818475
+the epoch of min eval loss: 295
+**** EPOCH 308 ****
+----0-----
+mean loss: 2.991126
+----1-----
+mean loss: 2.986074
+----2-----
+mean loss: 2.963471
+----3-----
+mean loss: 2.971636
+----4-----
+mean loss: 2.993036
+----5-----
+mean loss: 2.975924
+----0-----
+eval mean loss: 2.832302
+min eval loss: 2.818475
+the epoch of min eval loss: 295
+**** EPOCH 309 ****
+----0-----
+mean loss: 2.963523
+----1-----
+mean loss: 3.026960
+----2-----
+mean loss: 3.000635
+----3-----
+mean loss: 3.001182
+----4-----
+mean loss: 2.981060
+----5-----
+mean loss: 2.983415
+----0-----
+eval mean loss: 2.842226
+min eval loss: 2.818475
+the epoch of min eval loss: 295
+**** EPOCH 310 ****
+----0-----
+mean loss: 3.003341
+----1-----
+mean loss: 2.990729
+----2-----
+mean loss: 2.981660
+----3-----
+mean loss: 3.013437
+----4-----
+mean loss: 3.021442
+----5-----
+mean loss: 2.949486
+----0-----
+eval mean loss: 2.840198
+min eval loss: 2.818475
+the epoch of min eval loss: 295
+Model saved in file: result/log_learning_rotation_so3_30_30/model.ckpt
+**** EPOCH 311 ****
+----0-----
+mean loss: 3.000990
+----1-----
+mean loss: 3.001299
+----2-----
+mean loss: 2.995387
+----3-----
+mean loss: 2.995627
+----4-----
+mean loss: 3.012295
+----5-----
+mean loss: 2.956434
+----0-----
+eval mean loss: 2.859735
+min eval loss: 2.818475
+the epoch of min eval loss: 295
+**** EPOCH 312 ****
+----0-----
+mean loss: 3.011245
+----1-----
+mean loss: 2.984570
+----2-----
+mean loss: 2.977978
+----3-----
+mean loss: 3.009218
+----4-----
+mean loss: 3.021414
+----5-----
+mean loss: 2.942613
+----0-----
+eval mean loss: 2.841303
+min eval loss: 2.818475
+the epoch of min eval loss: 295
+**** EPOCH 313 ****
+----0-----
+mean loss: 2.998592
+----1-----
+mean loss: 2.992984
+----2-----
+mean loss: 2.962575
+----3-----
+mean loss: 2.984078
+----4-----
+mean loss: 2.973094
+----5-----
+mean loss: 2.940398
+----0-----
+eval mean loss: 2.815980
+Best Model saved in file: result/log_learning_rotation_so3_30_30/best_model.ckpt
+min eval loss: 2.815980
+the epoch of min eval loss: 313
+**** EPOCH 314 ****
+----0-----
+mean loss: 3.000044
+----1-----
+mean loss: 3.021727
+----2-----
+mean loss: 2.997568
+----3-----
+mean loss: 2.999453
+----4-----
+mean loss: 3.026150
+----5-----
+mean loss: 2.956656
+----0-----
+eval mean loss: 2.850177
+min eval loss: 2.815980
+the epoch of min eval loss: 313
+**** EPOCH 315 ****
+----0-----
+mean loss: 2.969653
+----1-----
+mean loss: 3.002356
+----2-----
+mean loss: 2.992177
+----3-----
+mean loss: 3.000415
+----4-----
+mean loss: 3.009873
+----5-----
+mean loss: 2.972637
+----0-----
+eval mean loss: 2.842038
+min eval loss: 2.815980
+the epoch of min eval loss: 313
+**** EPOCH 316 ****
+----0-----
+mean loss: 2.997104
+----1-----
+mean loss: 3.001614
+----2-----
+mean loss: 3.002546
+----3-----
+mean loss: 3.013519
+----4-----
+mean loss: 3.009534
+----5-----
+mean loss: 2.949557
+----0-----
+eval mean loss: 2.837343
+min eval loss: 2.815980
+the epoch of min eval loss: 313
+**** EPOCH 317 ****
+----0-----
+mean loss: 2.992327
+----1-----
+mean loss: 3.016240
+----2-----
+mean loss: 3.002290
+----3-----
+mean loss: 3.021771
+----4-----
+mean loss: 3.029367
+----5-----
+mean loss: 2.966151
+----0-----
+eval mean loss: 2.848169
+min eval loss: 2.815980
+the epoch of min eval loss: 313
+**** EPOCH 318 ****
+----0-----
+mean loss: 3.001764
+----1-----
+mean loss: 3.009290
+----2-----
+mean loss: 2.994385
+----3-----
+mean loss: 3.006695
+----4-----
+mean loss: 3.008126
+----5-----
+mean loss: 2.965490
+----0-----
+eval mean loss: 2.819518
+min eval loss: 2.815980
+the epoch of min eval loss: 313
+**** EPOCH 319 ****
+----0-----
+mean loss: 2.990858
+----1-----
+mean loss: 2.987937
+----2-----
+mean loss: 2.983306
+----3-----
+mean loss: 3.007568
+----4-----
+mean loss: 3.034981
+----5-----
+mean loss: 2.981802
+----0-----
+eval mean loss: 2.842502
+min eval loss: 2.815980
+the epoch of min eval loss: 313
+**** EPOCH 320 ****
+----0-----
+mean loss: 3.001592
+----1-----
+mean loss: 2.988247
+----2-----
+mean loss: 3.018991
+----3-----
+mean loss: 2.972302
+----4-----
+mean loss: 2.999819
+----5-----
+mean loss: 2.945343
+----0-----
+eval mean loss: 2.800271
+Best Model saved in file: result/log_learning_rotation_so3_30_30/best_model.ckpt
+min eval loss: 2.800271
+the epoch of min eval loss: 320
+Model saved in file: result/log_learning_rotation_so3_30_30/model.ckpt
+**** EPOCH 321 ****
+----0-----
+mean loss: 2.991580
+----1-----
+mean loss: 3.002696
+----2-----
+mean loss: 2.990481
+----3-----
+mean loss: 2.980093
+----4-----
+mean loss: 3.010186
+----5-----
+mean loss: 2.932049
+----0-----
+eval mean loss: 2.824159
+min eval loss: 2.800271
+the epoch of min eval loss: 320
+**** EPOCH 322 ****
+----0-----
+mean loss: 3.030774
+----1-----
+mean loss: 3.013793
+----2-----
+mean loss: 3.012364
+----3-----
+mean loss: 3.040924
+----4-----
+mean loss: 3.017975
+----5-----
+mean loss: 2.936685
+----0-----
+eval mean loss: 2.849787
+min eval loss: 2.800271
+the epoch of min eval loss: 320
+**** EPOCH 323 ****
+----0-----
+mean loss: 3.003768
+----1-----
+mean loss: 2.966783
+----2-----
+mean loss: 2.980511
+----3-----
+mean loss: 3.007071
+----4-----
+mean loss: 2.992461
+----5-----
+mean loss: 2.965593
+----0-----
+eval mean loss: 2.859933
+min eval loss: 2.800271
+the epoch of min eval loss: 320
+**** EPOCH 324 ****
+----0-----
+mean loss: 2.986705
+----1-----
+mean loss: 2.991147
+----2-----
+mean loss: 3.000484
+----3-----
+mean loss: 3.008857
+----4-----
+mean loss: 3.005789
+----5-----
+mean loss: 2.954618
+----0-----
+eval mean loss: 2.824821
+min eval loss: 2.800271
+the epoch of min eval loss: 320
+**** EPOCH 325 ****
+----0-----
+mean loss: 2.978443
+----1-----
+mean loss: 2.984437
+----2-----
+mean loss: 2.979749
+----3-----
+mean loss: 3.020095
+----4-----
+mean loss: 3.012803
+----5-----
+mean loss: 2.946657
+----0-----
+eval mean loss: 2.836211
+min eval loss: 2.800271
+the epoch of min eval loss: 320
+**** EPOCH 326 ****
+----0-----
+mean loss: 3.013384
+----1-----
+mean loss: 2.997197
+----2-----
+mean loss: 2.982620
+----3-----
+mean loss: 3.014566
+----4-----
+mean loss: 3.002047
+----5-----
+mean loss: 2.951934
+----0-----
+eval mean loss: 2.841090
+min eval loss: 2.800271
+the epoch of min eval loss: 320
+**** EPOCH 327 ****
+----0-----
+mean loss: 3.021111
+----1-----
+mean loss: 2.965694
+----2-----
+mean loss: 2.996146
+----3-----
+mean loss: 3.002967
+----4-----
+mean loss: 2.991597
+----5-----
+mean loss: 2.941193
+----0-----
+eval mean loss: 2.831691
+min eval loss: 2.800271
+the epoch of min eval loss: 320
+**** EPOCH 328 ****
+----0-----
+mean loss: 3.006757
+----1-----
+mean loss: 3.005292
+----2-----
+mean loss: 2.985927
+----3-----
+mean loss: 2.989047
+----4-----
+mean loss: 2.976792
+----5-----
+mean loss: 2.963002
+----0-----
+eval mean loss: 2.844788
+min eval loss: 2.800271
+the epoch of min eval loss: 320
+**** EPOCH 329 ****
+----0-----
+mean loss: 2.989113
+----1-----
+mean loss: 3.007106
+----2-----
+mean loss: 3.021177
+----3-----
+mean loss: 2.986866
+----4-----
+mean loss: 3.019565
+----5-----
+mean loss: 2.941580
+----0-----
+eval mean loss: 2.855020
+min eval loss: 2.800271
+the epoch of min eval loss: 320
+**** EPOCH 330 ****
+----0-----
+mean loss: 2.979889
+----1-----
+mean loss: 3.010771
+----2-----
+mean loss: 3.019385
+----3-----
+mean loss: 2.988707
+----4-----
+mean loss: 2.958679
+----5-----
+mean loss: 2.954832
+----0-----
+eval mean loss: 2.853882
+min eval loss: 2.800271
+the epoch of min eval loss: 320
+Model saved in file: result/log_learning_rotation_so3_30_30/model.ckpt
+**** EPOCH 331 ****
+----0-----
+mean loss: 2.980410
+----1-----
+mean loss: 2.976794
+----2-----
+mean loss: 2.990772
+----3-----
+mean loss: 2.974712
+----4-----
+mean loss: 2.996467
+----5-----
+mean loss: 2.941962
+----0-----
+eval mean loss: 2.849878
+min eval loss: 2.800271
+the epoch of min eval loss: 320
+**** EPOCH 332 ****
+----0-----
+mean loss: 3.019417
+----1-----
+mean loss: 3.002613
+----2-----
+mean loss: 2.984354
+----3-----
+mean loss: 2.999166
+----4-----
+mean loss: 3.010130
+----5-----
+mean loss: 2.959981
+----0-----
+eval mean loss: 2.857503
+min eval loss: 2.800271
+the epoch of min eval loss: 320
+**** EPOCH 333 ****
+----0-----
+mean loss: 2.987624
+----1-----
+mean loss: 2.962146
+----2-----
+mean loss: 2.965160
+----3-----
+mean loss: 2.979020
+----4-----
+mean loss: 2.988826
+----5-----
+mean loss: 2.959796
+----0-----
+eval mean loss: 2.850157
+min eval loss: 2.800271
+the epoch of min eval loss: 320
+**** EPOCH 334 ****
+----0-----
+mean loss: 2.986384
+----1-----
+mean loss: 2.973444
+----2-----
+mean loss: 3.023998
+----3-----
+mean loss: 2.997982
+----4-----
+mean loss: 3.014977
+----5-----
+mean loss: 2.974268
+----0-----
+eval mean loss: 2.823624
+min eval loss: 2.800271
+the epoch of min eval loss: 320
+**** EPOCH 335 ****
+----0-----
+mean loss: 2.985076
+----1-----
+mean loss: 3.001203
+----2-----
+mean loss: 2.967342
+----3-----
+mean loss: 3.017760
+----4-----
+mean loss: 3.001826
+----5-----
+mean loss: 2.967625
+----0-----
+eval mean loss: 2.834529
+min eval loss: 2.800271
+the epoch of min eval loss: 320
+**** EPOCH 336 ****
+----0-----
+mean loss: 3.014905
+----1-----
+mean loss: 2.990382
+----2-----
+mean loss: 2.988321
+----3-----
+mean loss: 2.986501
+----4-----
+mean loss: 2.998616
+----5-----
+mean loss: 2.941619
+----0-----
+eval mean loss: 2.838934
+min eval loss: 2.800271
+the epoch of min eval loss: 320
+**** EPOCH 337 ****
+----0-----
+mean loss: 2.988864
+----1-----
+mean loss: 2.994461
+----2-----
+mean loss: 2.968207
+----3-----
+mean loss: 2.989728
+----4-----
+mean loss: 2.996624
+----5-----
+mean loss: 2.954811
+----0-----
+eval mean loss: 2.831216
+min eval loss: 2.800271
+the epoch of min eval loss: 320
+**** EPOCH 338 ****
+----0-----
+mean loss: 2.996277
+----1-----
+mean loss: 3.003417
+----2-----
+mean loss: 2.995188
+----3-----
+mean loss: 3.027002
+----4-----
+mean loss: 3.028848
+----5-----
+mean loss: 2.956020
+----0-----
+eval mean loss: 2.844654
+min eval loss: 2.800271
+the epoch of min eval loss: 320
+**** EPOCH 339 ****
+----0-----
+mean loss: 3.009790
+----1-----
+mean loss: 2.993324
+----2-----
+mean loss: 2.967998
+----3-----
+mean loss: 3.012881
+----4-----
+mean loss: 2.990608
+----5-----
+mean loss: 2.971622
+----0-----
+eval mean loss: 2.850049
+min eval loss: 2.800271
+the epoch of min eval loss: 320
+**** EPOCH 340 ****
+----0-----
+mean loss: 2.985709
+----1-----
+mean loss: 2.980470
+----2-----
+mean loss: 2.988808
+----3-----
+mean loss: 2.998573
+----4-----
+mean loss: 3.021072
+----5-----
+mean loss: 2.979387
+----0-----
+eval mean loss: 2.860787
+min eval loss: 2.800271
+the epoch of min eval loss: 320
+Model saved in file: result/log_learning_rotation_so3_30_30/model.ckpt
+**** EPOCH 341 ****
+----0-----
+mean loss: 3.024123
+----1-----
+mean loss: 2.974891
+----2-----
+mean loss: 2.994470
+----3-----
+mean loss: 2.987697
+----4-----
+mean loss: 3.000895
+----5-----
+mean loss: 2.962579
+----0-----
+eval mean loss: 2.874092
+min eval loss: 2.800271
+the epoch of min eval loss: 320
+**** EPOCH 342 ****
+----0-----
+mean loss: 2.989146
+----1-----
+mean loss: 2.996240
+----2-----
+mean loss: 2.993757
+----3-----
+mean loss: 2.978214
+----4-----
+mean loss: 3.007418
+----5-----
+mean loss: 2.965015
+----0-----
+eval mean loss: 2.848932
+min eval loss: 2.800271
+the epoch of min eval loss: 320
+**** EPOCH 343 ****
+----0-----
+mean loss: 2.979599
+----1-----
+mean loss: 2.969868
+----2-----
+mean loss: 3.003420
+----3-----
+mean loss: 2.999018
+----4-----
+mean loss: 3.001676
+----5-----
+mean loss: 2.968455
+----0-----
+eval mean loss: 2.856653
+min eval loss: 2.800271
+the epoch of min eval loss: 320
+**** EPOCH 344 ****
+----0-----
+mean loss: 2.990785
+----1-----
+mean loss: 2.990980
+----2-----
+mean loss: 2.976310
+----3-----
+mean loss: 3.000945
+----4-----
+mean loss: 3.021970
+----5-----
+mean loss: 2.953226
+----0-----
+eval mean loss: 2.822721
+min eval loss: 2.800271
+the epoch of min eval loss: 320
+**** EPOCH 345 ****
+----0-----
+mean loss: 3.000773
+----1-----
+mean loss: 3.001922
+----2-----
+mean loss: 2.950565
+----3-----
+mean loss: 3.023071
+----4-----
+mean loss: 3.032484
+----5-----
+mean loss: 2.961496
+----0-----
+eval mean loss: 2.852426
+min eval loss: 2.800271
+the epoch of min eval loss: 320
+**** EPOCH 346 ****
+----0-----
+mean loss: 2.983379
+----1-----
+mean loss: 3.004432
+----2-----
+mean loss: 3.007227
+----3-----
+mean loss: 2.968615
+----4-----
+mean loss: 3.000400
+----5-----
+mean loss: 2.969186
+----0-----
+eval mean loss: 2.811927
+min eval loss: 2.800271
+the epoch of min eval loss: 320
+**** EPOCH 347 ****
+----0-----
+mean loss: 2.995805
+----1-----
+mean loss: 3.024583
+----2-----
+mean loss: 2.981509
+----3-----
+mean loss: 3.007906
+----4-----
+mean loss: 2.970774
+----5-----
+mean loss: 2.974346
+----0-----
+eval mean loss: 2.828392
+min eval loss: 2.800271
+the epoch of min eval loss: 320
+**** EPOCH 348 ****
+----0-----
+mean loss: 2.998214
+----1-----
+mean loss: 2.990523
+----2-----
+mean loss: 2.993495
+----3-----
+mean loss: 3.018650
+----4-----
+mean loss: 3.035341
+----5-----
+mean loss: 2.962121
+----0-----
+eval mean loss: 2.852166
+min eval loss: 2.800271
+the epoch of min eval loss: 320
+**** EPOCH 349 ****
+----0-----
+mean loss: 2.994268
+----1-----
+mean loss: 2.962201
+----2-----
+mean loss: 2.985441
+----3-----
+mean loss: 2.988612
+----4-----
+mean loss: 3.007200
+----5-----
+mean loss: 2.975738
+----0-----
+eval mean loss: 2.864392
+min eval loss: 2.800271
+the epoch of min eval loss: 320
+**** EPOCH 350 ****
+----0-----
+mean loss: 2.992560
+----1-----
+mean loss: 2.977226
+----2-----
+mean loss: 3.016227
+----3-----
+mean loss: 3.005798
+----4-----
+mean loss: 2.985595
+----5-----
+mean loss: 2.978311
+----0-----
+eval mean loss: 2.835433
+min eval loss: 2.800271
+the epoch of min eval loss: 320
+Model saved in file: result/log_learning_rotation_so3_30_30/model.ckpt
+**** EPOCH 351 ****
+----0-----
+mean loss: 2.980732
+----1-----
+mean loss: 3.018031
+----2-----
+mean loss: 2.985452
+----3-----
+mean loss: 3.011360
+----4-----
+mean loss: 2.983157
+----5-----
+mean loss: 2.942797
+----0-----
+eval mean loss: 2.849309
+min eval loss: 2.800271
+the epoch of min eval loss: 320
+**** EPOCH 352 ****
+----0-----
+mean loss: 2.985997
+----1-----
+mean loss: 3.006606
+----2-----
+mean loss: 2.967963
+----3-----
+mean loss: 2.978810
+----4-----
+mean loss: 3.008860
+----5-----
+mean loss: 2.955460
+----0-----
+eval mean loss: 2.830972
+min eval loss: 2.800271
+the epoch of min eval loss: 320
+**** EPOCH 353 ****
+----0-----
+mean loss: 2.978951
+----1-----
+mean loss: 3.011669
+----2-----
+mean loss: 2.987644
+----3-----
+mean loss: 3.017642
+----4-----
+mean loss: 3.010689
+----5-----
+mean loss: 2.955283
+----0-----
+eval mean loss: 2.841066
+min eval loss: 2.800271
+the epoch of min eval loss: 320
+**** EPOCH 354 ****
+----0-----
+mean loss: 3.003684
+----1-----
+mean loss: 2.958262
+----2-----
+mean loss: 3.030709
+----3-----
+mean loss: 3.046921
+----4-----
+mean loss: 2.998986
+----5-----
+mean loss: 2.966836
+----0-----
+eval mean loss: 2.831772
+min eval loss: 2.800271
+the epoch of min eval loss: 320
+**** EPOCH 355 ****
+----0-----
+mean loss: 2.990157
+----1-----
+mean loss: 3.000816
+----2-----
+mean loss: 2.988586
+----3-----
+mean loss: 2.990860
+----4-----
+mean loss: 3.004096
+----5-----
+mean loss: 2.958723
+----0-----
+eval mean loss: 2.849169
+min eval loss: 2.800271
+the epoch of min eval loss: 320
+**** EPOCH 356 ****
+----0-----
+mean loss: 2.979600
+----1-----
+mean loss: 2.982320
+----2-----
+mean loss: 3.002920
+----3-----
+mean loss: 2.983480
+----4-----
+mean loss: 3.012629
+----5-----
+mean loss: 2.968929
+----0-----
+eval mean loss: 2.843151
+min eval loss: 2.800271
+the epoch of min eval loss: 320
+**** EPOCH 357 ****
+----0-----
+mean loss: 2.977430
+----1-----
+mean loss: 2.963573
+----2-----
+mean loss: 3.004930
+----3-----
+mean loss: 2.990835
+----4-----
+mean loss: 3.004564
+----5-----
+mean loss: 2.974313
+----0-----
+eval mean loss: 2.853079
+min eval loss: 2.800271
+the epoch of min eval loss: 320
+**** EPOCH 358 ****
+----0-----
+mean loss: 2.994372
+----1-----
+mean loss: 2.997368
+----2-----
+mean loss: 3.013201
+----3-----
+mean loss: 3.002660
+----4-----
+mean loss: 2.992662
+----5-----
+mean loss: 2.927884
+----0-----
+eval mean loss: 2.840402
+min eval loss: 2.800271
+the epoch of min eval loss: 320
+**** EPOCH 359 ****
+----0-----
+mean loss: 2.978999
+----1-----
+mean loss: 2.987411
+----2-----
+mean loss: 2.976862
+----3-----
+mean loss: 3.011883
+----4-----
+mean loss: 3.012583
+----5-----
+mean loss: 2.981269
+----0-----
+eval mean loss: 2.837486
+min eval loss: 2.800271
+the epoch of min eval loss: 320
+**** EPOCH 360 ****
+----0-----
+mean loss: 2.983205
+----1-----
+mean loss: 2.969010
+----2-----
+mean loss: 2.992780
+----3-----
+mean loss: 3.034758
+----4-----
+mean loss: 2.965532
+----5-----
+mean loss: 2.941594
+----0-----
+eval mean loss: 2.821495
+min eval loss: 2.800271
+the epoch of min eval loss: 320
+Model saved in file: result/log_learning_rotation_so3_30_30/model.ckpt
+**** EPOCH 361 ****
+----0-----
+mean loss: 3.009447
+----1-----
+mean loss: 2.999118
+----2-----
+mean loss: 2.986933
+----3-----
+mean loss: 3.000324
+----4-----
+mean loss: 3.007277
+----5-----
+mean loss: 2.950828
+----0-----
+eval mean loss: 2.845029
+min eval loss: 2.800271
+the epoch of min eval loss: 320
+**** EPOCH 362 ****
+----0-----
+mean loss: 2.993508
+----1-----
+mean loss: 2.993672
+----2-----
+mean loss: 2.973367
+----3-----
+mean loss: 3.004437
+----4-----
+mean loss: 3.004643
+----5-----
+mean loss: 2.954547
+----0-----
+eval mean loss: 2.843370
+min eval loss: 2.800271
+the epoch of min eval loss: 320
+**** EPOCH 363 ****
+----0-----
+mean loss: 2.995287
+----1-----
+mean loss: 2.996518
+----2-----
+mean loss: 3.006155
+----3-----
+mean loss: 2.999262
+----4-----
+mean loss: 3.010054
+----5-----
+mean loss: 2.941532
+----0-----
+eval mean loss: 2.827980
+min eval loss: 2.800271
+the epoch of min eval loss: 320
+**** EPOCH 364 ****
+----0-----
+mean loss: 3.011403
+----1-----
+mean loss: 2.979575
+----2-----
+mean loss: 2.985042
+----3-----
+mean loss: 2.974884
+----4-----
+mean loss: 3.007839
+----5-----
+mean loss: 2.941960
+----0-----
+eval mean loss: 2.835522
+min eval loss: 2.800271
+the epoch of min eval loss: 320
+**** EPOCH 365 ****
+----0-----
+mean loss: 2.976409
+----1-----
+mean loss: 3.011160
+----2-----
+mean loss: 2.995710
+----3-----
+mean loss: 3.004849
+----4-----
+mean loss: 2.972991
+----5-----
+mean loss: 2.985693
+----0-----
+eval mean loss: 2.810900
+min eval loss: 2.800271
+the epoch of min eval loss: 320
+**** EPOCH 366 ****
+----0-----
+mean loss: 2.967706
+----1-----
+mean loss: 3.002346
+----2-----
+mean loss: 2.993472
+----3-----
+mean loss: 3.029481
+----4-----
+mean loss: 3.033842
+----5-----
+mean loss: 2.945770
+----0-----
+eval mean loss: 2.828862
+min eval loss: 2.800271
+the epoch of min eval loss: 320
+**** EPOCH 367 ****
+----0-----
+mean loss: 2.991679
+----1-----
+mean loss: 2.991566
+----2-----
+mean loss: 3.001108
+----3-----
+mean loss: 3.016840
+----4-----
+mean loss: 2.983511
+----5-----
+mean loss: 2.959266
+----0-----
+eval mean loss: 2.839289
+min eval loss: 2.800271
+the epoch of min eval loss: 320
+**** EPOCH 368 ****
+----0-----
+mean loss: 3.007560
+----1-----
+mean loss: 2.977452
+----2-----
+mean loss: 2.979194
+----3-----
+mean loss: 2.993387
+----4-----
+mean loss: 3.007752
+----5-----
+mean loss: 2.952666
+----0-----
+eval mean loss: 2.840872
+min eval loss: 2.800271
+the epoch of min eval loss: 320
+**** EPOCH 369 ****
+----0-----
+mean loss: 2.999523
+----1-----
+mean loss: 2.966916
+----2-----
+mean loss: 2.993435
+----3-----
+mean loss: 2.979441
+----4-----
+mean loss: 3.005571
+----5-----
+mean loss: 2.961655
+----0-----
+eval mean loss: 2.843167
+min eval loss: 2.800271
+the epoch of min eval loss: 320
+**** EPOCH 370 ****
+----0-----
+mean loss: 2.968078
+----1-----
+mean loss: 2.967399
+----2-----
+mean loss: 2.989629
+----3-----
+mean loss: 3.005336
+----4-----
+mean loss: 2.989435
+----5-----
+mean loss: 2.969367
+----0-----
+eval mean loss: 2.843531
+min eval loss: 2.800271
+the epoch of min eval loss: 320
+Model saved in file: result/log_learning_rotation_so3_30_30/model.ckpt
+**** EPOCH 371 ****
+----0-----
+mean loss: 2.981566
+----1-----
+mean loss: 2.985616
+----2-----
+mean loss: 2.991053
+----3-----
+mean loss: 3.001511
+----4-----
+mean loss: 2.997967
+----5-----
+mean loss: 2.950711
+----0-----
+eval mean loss: 2.823856
+min eval loss: 2.800271
+the epoch of min eval loss: 320
+**** EPOCH 372 ****
+----0-----
+mean loss: 2.983170
+----1-----
+mean loss: 2.997166
+----2-----
+mean loss: 2.998024
+----3-----
+mean loss: 3.003506
+----4-----
+mean loss: 2.980575
+----5-----
+mean loss: 2.945659
+----0-----
+eval mean loss: 2.845064
+min eval loss: 2.800271
+the epoch of min eval loss: 320
+**** EPOCH 373 ****
+----0-----
+mean loss: 3.001409
+----1-----
+mean loss: 2.993427
+----2-----
+mean loss: 3.016390
+----3-----
+mean loss: 3.004027
+----4-----
+mean loss: 2.990541
+----5-----
+mean loss: 2.969284
+----0-----
+eval mean loss: 2.838317
+min eval loss: 2.800271
+the epoch of min eval loss: 320
+**** EPOCH 374 ****
+----0-----
+mean loss: 2.975216
+----1-----
+mean loss: 2.983641
+----2-----
+mean loss: 2.976347
+----3-----
+mean loss: 2.988698
+----4-----
+mean loss: 2.987315
+----5-----
+mean loss: 2.958884
+----0-----
+eval mean loss: 2.853783
+min eval loss: 2.800271
+the epoch of min eval loss: 320
+**** EPOCH 375 ****
+----0-----
+mean loss: 3.016741
+----1-----
+mean loss: 2.984884
+----2-----
+mean loss: 2.957774
+----3-----
+mean loss: 3.009997
+----4-----
+mean loss: 3.009380
+----5-----
+mean loss: 2.974552
+----0-----
+eval mean loss: 2.803659
+min eval loss: 2.800271
+the epoch of min eval loss: 320
+**** EPOCH 376 ****
+----0-----
+mean loss: 2.994636
+----1-----
+mean loss: 3.002738
+----2-----
+mean loss: 2.975875
+----3-----
+mean loss: 2.990140
+----4-----
+mean loss: 2.985231
+----5-----
+mean loss: 2.970556
+----0-----
+eval mean loss: 2.859444
+min eval loss: 2.800271
+the epoch of min eval loss: 320
+**** EPOCH 377 ****
+----0-----
+mean loss: 3.023858
+----1-----
+mean loss: 2.976196
+----2-----
+mean loss: 3.011066
+----3-----
+mean loss: 2.990879
+----4-----
+mean loss: 3.007810
+----5-----
+mean loss: 2.969520
+----0-----
+eval mean loss: 2.847835
+min eval loss: 2.800271
+the epoch of min eval loss: 320
+**** EPOCH 378 ****
+----0-----
+mean loss: 2.979142
+----1-----
+mean loss: 2.992041
+----2-----
+mean loss: 3.007160
+----3-----
+mean loss: 2.971938
+----4-----
+mean loss: 2.994439
+----5-----
+mean loss: 2.946241
+----0-----
+eval mean loss: 2.843369
+min eval loss: 2.800271
+the epoch of min eval loss: 320
+**** EPOCH 379 ****
+----0-----
+mean loss: 2.999262
+----1-----
+mean loss: 3.023898
+----2-----
+mean loss: 3.025070
+----3-----
+mean loss: 3.023717
+----4-----
+mean loss: 3.014082
+----5-----
+mean loss: 2.957149
+----0-----
+eval mean loss: 2.843769
+min eval loss: 2.800271
+the epoch of min eval loss: 320
+**** EPOCH 380 ****
+----0-----
+mean loss: 2.988609
+----1-----
+mean loss: 2.987247
+----2-----
+mean loss: 2.994290
+----3-----
+mean loss: 2.996918
+----4-----
+mean loss: 2.994756
+----5-----
+mean loss: 2.948802
+----0-----
+eval mean loss: 2.846869
+min eval loss: 2.800271
+the epoch of min eval loss: 320
+Model saved in file: result/log_learning_rotation_so3_30_30/model.ckpt
+**** EPOCH 381 ****
+----0-----
+mean loss: 2.996107
+----1-----
+mean loss: 2.989505
+----2-----
+mean loss: 3.007490
+----3-----
+mean loss: 2.993136
+----4-----
+mean loss: 2.983125
+----5-----
+mean loss: 2.968382
+----0-----
+eval mean loss: 2.854911
+min eval loss: 2.800271
+the epoch of min eval loss: 320
+**** EPOCH 382 ****
+----0-----
+mean loss: 2.978972
+----1-----
+mean loss: 2.971641
+----2-----
+mean loss: 2.943206
+----3-----
+mean loss: 3.010834
+----4-----
+mean loss: 2.993981
+----5-----
+mean loss: 2.973180
+----0-----
+eval mean loss: 2.843571
+min eval loss: 2.800271
+the epoch of min eval loss: 320
+**** EPOCH 383 ****
+----0-----
+mean loss: 2.991963
+----1-----
+mean loss: 2.971536
+----2-----
+mean loss: 2.978773
+----3-----
+mean loss: 3.003819
+----4-----
+mean loss: 2.983538
+----5-----
+mean loss: 2.976236
+----0-----
+eval mean loss: 2.831788
+min eval loss: 2.800271
+the epoch of min eval loss: 320
+**** EPOCH 384 ****
+----0-----
+mean loss: 2.970307
+----1-----
+mean loss: 2.998410
+----2-----
+mean loss: 2.979560
+----3-----
+mean loss: 3.021253
+----4-----
+mean loss: 2.993676
+----5-----
+mean loss: 2.947017
+----0-----
+eval mean loss: 2.841679
+min eval loss: 2.800271
+the epoch of min eval loss: 320
+**** EPOCH 385 ****
+----0-----
+mean loss: 2.993824
+----1-----
+mean loss: 3.010344
+----2-----
+mean loss: 2.990613
+----3-----
+mean loss: 2.994809
+----4-----
+mean loss: 2.994348
+----5-----
+mean loss: 2.940300
+----0-----
+eval mean loss: 2.830340
+min eval loss: 2.800271
+the epoch of min eval loss: 320
+**** EPOCH 386 ****
+----0-----
+mean loss: 3.006934
+----1-----
+mean loss: 2.977461
+----2-----
+mean loss: 3.001911
+----3-----
+mean loss: 3.003374
+----4-----
+mean loss: 2.998478
+----5-----
+mean loss: 2.937927
+----0-----
+eval mean loss: 2.847992
+min eval loss: 2.800271
+the epoch of min eval loss: 320
+**** EPOCH 387 ****
+----0-----
+mean loss: 2.984790
+----1-----
+mean loss: 2.993558
+----2-----
+mean loss: 2.998451
+----3-----
+mean loss: 3.010803
+----4-----
+mean loss: 3.018159
+----5-----
+mean loss: 2.957072
+----0-----
+eval mean loss: 2.841804
+min eval loss: 2.800271
+the epoch of min eval loss: 320
+**** EPOCH 388 ****
+----0-----
+mean loss: 2.985903
+----1-----
+mean loss: 2.992016
+----2-----
+mean loss: 2.980098
+----3-----
+mean loss: 2.997594
+----4-----
+mean loss: 2.993102
+----5-----
+mean loss: 2.947661
+----0-----
+eval mean loss: 2.835634
+min eval loss: 2.800271
+the epoch of min eval loss: 320
+**** EPOCH 389 ****
+----0-----
+mean loss: 2.991540
+----1-----
+mean loss: 2.985046
+----2-----
+mean loss: 3.014809
+----3-----
+mean loss: 3.002377
+----4-----
+mean loss: 2.989514
+----5-----
+mean loss: 2.952683
+----0-----
+eval mean loss: 2.822829
+min eval loss: 2.800271
+the epoch of min eval loss: 320
+**** EPOCH 390 ****
+----0-----
+mean loss: 2.986423
+----1-----
+mean loss: 2.975724
+----2-----
+mean loss: 2.986652
+----3-----
+mean loss: 2.984663
+----4-----
+mean loss: 2.995063
+----5-----
+mean loss: 2.946717
+----0-----
+eval mean loss: 2.842386
+min eval loss: 2.800271
+the epoch of min eval loss: 320
+Model saved in file: result/log_learning_rotation_so3_30_30/model.ckpt
+**** EPOCH 391 ****
+----0-----
+mean loss: 2.981590
+----1-----
+mean loss: 2.973246
+----2-----
+mean loss: 2.971522
+----3-----
+mean loss: 3.007019
+----4-----
+mean loss: 2.969260
+----5-----
+mean loss: 2.926271
+----0-----
+eval mean loss: 2.830059
+min eval loss: 2.800271
+the epoch of min eval loss: 320
+**** EPOCH 392 ****
+----0-----
+mean loss: 2.979538
+----1-----
+mean loss: 2.994897
+----2-----
+mean loss: 2.999046
+----3-----
+mean loss: 2.995749
+----4-----
+mean loss: 3.005125
+----5-----
+mean loss: 2.947696
+----0-----
+eval mean loss: 2.859406
+min eval loss: 2.800271
+the epoch of min eval loss: 320
+**** EPOCH 393 ****
+----0-----
+mean loss: 3.026277
+----1-----
+mean loss: 3.007773
+----2-----
+mean loss: 2.990034
+----3-----
+mean loss: 3.031615
+----4-----
+mean loss: 2.996115
+----5-----
+mean loss: 2.985891
+----0-----
+eval mean loss: 2.816318
+min eval loss: 2.800271
+the epoch of min eval loss: 320
+**** EPOCH 394 ****
+----0-----
+mean loss: 3.012218
+----1-----
+mean loss: 2.985576
+----2-----
+mean loss: 2.982461
+----3-----
+mean loss: 2.954821
+----4-----
+mean loss: 3.030242
+----5-----
+mean loss: 2.947774
+----0-----
+eval mean loss: 2.824012
+min eval loss: 2.800271
+the epoch of min eval loss: 320
+**** EPOCH 395 ****
+----0-----
+mean loss: 3.007623
+----1-----
+mean loss: 2.991044
+----2-----
+mean loss: 2.981719
+----3-----
+mean loss: 3.018562
+----4-----
+mean loss: 2.998000
+----5-----
+mean loss: 2.964255
+----0-----
+eval mean loss: 2.832786
+min eval loss: 2.800271
+the epoch of min eval loss: 320
+**** EPOCH 396 ****
+----0-----
+mean loss: 3.003254
+----1-----
+mean loss: 2.991739
+----2-----
+mean loss: 2.988720
+----3-----
+mean loss: 2.986484
+----4-----
+mean loss: 3.005524
+----5-----
+mean loss: 2.948928
+----0-----
+eval mean loss: 2.824784
+min eval loss: 2.800271
+the epoch of min eval loss: 320
+**** EPOCH 397 ****
+----0-----
+mean loss: 3.002197
+----1-----
+mean loss: 2.998868
+----2-----
+mean loss: 2.971567
+----3-----
+mean loss: 2.986598
+----4-----
+mean loss: 3.012941
+----5-----
+mean loss: 2.960776
+----0-----
+eval mean loss: 2.826281
+min eval loss: 2.800271
+the epoch of min eval loss: 320
+**** EPOCH 398 ****
+----0-----
+mean loss: 2.972976
+----1-----
+mean loss: 3.011015
+----2-----
+mean loss: 2.990297
+----3-----
+mean loss: 2.991924
+----4-----
+mean loss: 3.012412
+----5-----
+mean loss: 2.946207
+----0-----
+eval mean loss: 2.852392
+min eval loss: 2.800271
+the epoch of min eval loss: 320
+**** EPOCH 399 ****
+----0-----
+mean loss: 2.974434
+----1-----
+mean loss: 3.009988
+----2-----
+mean loss: 2.990714
+----3-----
+mean loss: 3.006569
+----4-----
+mean loss: 2.997606
+----5-----
+mean loss: 2.960337
+----0-----
+eval mean loss: 2.836903
+min eval loss: 2.800271
+the epoch of min eval loss: 320
