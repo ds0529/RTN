@@ -37,3 +37,5 @@ Test the RTN+DGCNN.
 ```
 python test_rotation_pretrain_so3.py --data_path $your_data_folder --transformer_model_path $your_RTN_model_path --model_path $your_model_path --dump_dir $your_test_path
 ```
+
+The trained models are stored in the folder `result`.

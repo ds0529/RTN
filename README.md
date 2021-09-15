@@ -66,6 +66,8 @@ Test the RTN+DGCNN.
 python evaluate_rotation_pretrain_so3.py --gpu $your_gpu_id --data_path $your_data_folder --transformer_model_path $your_RTN_model_path --model_path $your_model_path --dump_dir $your_test_path
 ```
 
+The trained models are stored in the folder `result`.
+
 ### Acknowledgement
 
 The structure of this codebase is borrowed from [DGCNN](https://github.com/WangYueFt/dgcnn).
