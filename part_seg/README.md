@@ -1,33 +1,29 @@
 ## Part segmentation
 
-### Dataset 
-
-Load the data for part segmentation.
-
-```
-sh +x download_data.sh
-```
-
 ### Train
 
-Train the model on 2 GPUs, each with 12 GB memeory. 
+Train the RTN. 
 
 ```
-python train_multi_gpu.py
+python train_learning_rotation_so3.py --gpu $your_gpu_id --data_path $your_data_folder --log_dir $your_RTN_model_path
 ```
 
-Model parameters are saved every 5 epochs in "train_results/trained_models/".
-
-### Evaluation
-
-To evaluate the model saved after epoch n, 
+Train the RTN+DGCNN with multi GPUs. 
 
 ```
-python test.py --model_path train_results/trained_models/epoch_n.ckpt
+python train_multi_gpu_rotation_pretrain_so3.py --data_path $your_data_folder --transformer_model_path $your_RTN_model_path --output_dir $your_model_path
 ```
 
-For example, if we want to test the model saved after 175 epochs (provided), 
+### Test
+
+Test the RTN. 
 
 ```
-python test.py --model_path train_results/trained_models/epoch_175.ckpt
+python evaluate_learning_rotation_so3.py --gpu $your_gpu_id --data_path $your_data_folder --model_path $your_RTN_model_path --dump_dir $your_RTN_test_path
+```
+
+Test the RTN+DGCNN. 
+
+```
+python test_rotation_pretrain_so3.py --data_path $your_data_folder --transformer_model_path $your_RTN_model_path --model_path $your_model_path --dump_dir $your_test_path
 ```
