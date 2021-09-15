@@ -45,7 +45,7 @@ DECAY_RATE = FLAGS.decay_rate
 MODEL = importlib.import_module(FLAGS.model) # import network module
 MODEL_FILE = os.path.join(BASE_DIR, 'models', FLAGS.model+'.py')
 LOG_DIR = FLAGS.log_dir
-if not os.path.exists(LOG_DIR): os.mkdir(LOG_DIR)
+if not os.path.exists(LOG_DIR): os.makedirs(LOG_DIR)
 os.system('cp %s %s' % (MODEL_FILE, LOG_DIR)) # bkp of model def
 os.system('cp train_learning_rotation_so3.py %s' % (LOG_DIR)) # bkp of train procedure
 LOG_FOUT = open(os.path.join(LOG_DIR, 'log_train.txt'), 'w')
@@ -156,6 +156,10 @@ def train():
         sess.run(init, {is_training_pl: True})
 
         # get clas data
+        for i in range(len(TRAIN_FILES)):
+            TRAIN_FILES[i]=DATA_PATH+TRAIN_FILES[i]
+        for i in range(len(TEST_FILES)):
+            TEST_FILES[i]=DATA_PATH+TEST_FILES[i]
         data, label = provider.loadDataFile_list_all(TRAIN_FILES)
         test_data, test_label = provider.loadDataFile_list_all(TEST_FILES)
         # data, label = provider.loadDataFile_list_class(TRAIN_FILES, class_indices)

@@ -38,7 +38,7 @@ batch_size = FLAGS.batch
 output_dir = FLAGS.output_dir
 
 if not os.path.exists(output_dir):
-  os.mkdir(output_dir)
+  os.makedirs(output_dir)
 
 # color_map_file = os.path.join(hdf5_data_dir, 'part_color_mapping.json')
 # color_map = json.load(open(color_map_file, 'r'))

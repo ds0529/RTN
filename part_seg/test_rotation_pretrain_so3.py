@@ -30,7 +30,7 @@ gpu_to_use = 0
 output_dir = FLAGS.dump_dir
 result_ply_dir = os.path.join(output_dir, 'result_ply')
 transform_ply_dir = os.path.join(output_dir, 'transform_ply')
-if not os.path.exists(output_dir): os.mkdir(output_dir)
+if not os.path.exists(output_dir): os.makedirs(output_dir)
 # if not os.path.exists(result_ply_dir): os.mkdir(result_ply_dir)
 # if not os.path.exists(transform_ply_dir): os.mkdir(transform_ply_dir)
 output_verbose = False

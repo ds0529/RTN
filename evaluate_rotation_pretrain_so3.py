@@ -39,7 +39,7 @@ TRANSFORMER_MODEL = importlib.import_module(FLAGS.transformer_model)
 DUMP_DIR = FLAGS.dump_dir
 ERROR_PLY_DIR = os.path.join(DUMP_DIR, 'error_ply')
 TRANSFORM_PLY_DIR = os.path.join(DUMP_DIR, 'transform_ply')
-if not os.path.exists(DUMP_DIR): os.mkdir(DUMP_DIR)
+if not os.path.exists(DUMP_DIR): os.makedirs(DUMP_DIR)
 # if not os.path.exists(ERROR_PLY_DIR): os.mkdir(ERROR_PLY_DIR)
 # f not os.path.exists(TRANSFORM_PLY_DIR): os.mkdir(TRANSFORM_PLY_DIR)
 LOG_FOUT = open(os.path.join(DUMP_DIR, 'log_evaluate.txt'), 'w')
@@ -136,7 +136,7 @@ def eval_one_epoch(sess, ops, num_votes=1, topk=1):
     fout = open(os.path.join(DUMP_DIR, 'pred_label.txt'), 'w')
     for fn in range(len(TEST_FILES)):
         log_string('----'+str(fn)+'----')
-        current_data, current_label = provider.loadDataFile(TEST_FILES[fn])
+        current_data, current_label = provider.loadDataFile(DATA_PATH+TEST_FILES[fn])
         current_data = current_data[:,0:NUM_POINT,:]
         current_label = np.squeeze(current_label)
         print(current_data.shape)

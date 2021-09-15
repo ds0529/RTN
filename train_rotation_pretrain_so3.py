@@ -49,7 +49,7 @@ TRANSFORMER_MODEL = importlib.import_module(FLAGS.transformer_model)
 MODEL_FILE = os.path.join(BASE_DIR, 'models', FLAGS.model+'.py')
 TRANSFORMER_MODEL_FILE = os.path.join(BASE_DIR, 'models', FLAGS.transformer_model+'.py')
 LOG_DIR = FLAGS.log_dir
-if not os.path.exists(LOG_DIR): os.mkdir(LOG_DIR)
+if not os.path.exists(LOG_DIR): os.makedirs(LOG_DIR)
 os.system('cp %s %s' % (MODEL_FILE, LOG_DIR)) # bkp of model def
 os.system('cp %s %s' % (TRANSFORMER_MODEL_FILE, LOG_DIR)) # bkp of model def
 os.system('cp train_rotation_pretrain_so3.py %s' % (LOG_DIR)) # bkp of train procedure
@@ -170,6 +170,10 @@ def train():
         sess.run(init, {is_training_transformer_pl: False, is_training_classifier_pl: True})
 
         # get class data
+        for i in range(len(TRAIN_FILES)):
+            TRAIN_FILES[i]=DATA_PATH+TRAIN_FILES[i]
+        for i in range(len(TEST_FILES)):
+            TEST_FILES[i]=DATA_PATH+TEST_FILES[i]
         data, label = provider.loadDataFile_list_all(TRAIN_FILES)
         test_data, test_label = provider.loadDataFile_list_all(TEST_FILES)
 

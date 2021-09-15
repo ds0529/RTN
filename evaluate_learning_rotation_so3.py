@@ -41,7 +41,7 @@ GPU_INDEX = FLAGS.gpu
 MODEL = importlib.import_module(FLAGS.model) # import network module
 TRANSFORMER_MODEL = MODEL
 DUMP_DIR = FLAGS.dump_dir
-if not os.path.exists(DUMP_DIR): os.mkdir(DUMP_DIR)
+if not os.path.exists(DUMP_DIR): os.makedirs(DUMP_DIR)
 LOG_FOUT = open(os.path.join(DUMP_DIR, 'log_evaluate.txt'), 'w')
 LOG_FOUT.write(str(FLAGS)+'\n')
 
@@ -141,9 +141,9 @@ def eval_one_epoch(sess, ops, num_votes=1, topk=1):
         for fn in range(len(TEST_FILES)):
             log_string('----'+str(fn)+'----')
             if part:
-                current_data, current_label = provider.loadDataFile_class(TEST_FILES[fn], class_indices)
+                current_data, current_label = provider.loadDataFile_class(DATA_PATH+TEST_FILES[fn], class_indices)
             else:
-                current_data, current_label = provider.loadDataFile(TEST_FILES[fn])
+                current_data, current_label = provider.loadDataFile(DATA_PATH+TEST_FILES[fn])
 
 
             current_data = current_data[:,0:NUM_POINT,:]
