@@ -2,6 +2,8 @@
 
 We propose a rotation transformation network for point cloud analysis, called RTN, which could reduce the RDF of input 3D objects to 0. The RTN could be seamlessly inserted into many existing DNNs for point cloud analysis.
 
+[[PDF](https://ieeexplore.ieee.org/abstract/document/9428265)]
+
 ### Overview
 
 This repository is the author's re-implementation of RTN. Extensive experimental results on 3D point cloud classification and segmentation tasks demonstrate that the proposed RTN could improve the performances of several state-of-the-art methods significantly.
