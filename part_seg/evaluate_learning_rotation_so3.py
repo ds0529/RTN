@@ -26,8 +26,8 @@ parser.add_argument('--data_path', default='/mnt/dengshuang/data/shapenet50/shap
 parser.add_argument('--model', default='learning_rotation_nets_mix_model', help='Model name: dgcnn [default: dgcnn]')
 parser.add_argument('--batch_size', type=int, default=32, help='Batch Size during training [default: 1]')
 parser.add_argument('--num_point', type=int, default=1024, help='Point Number [256/512/1024/2048] [default: 1024]')
-parser.add_argument('--model_path', default='result/log_learning_rotation_so3/best_model.ckpt', help='model checkpoint file path [default: log/model.ckpt]')
-parser.add_argument('--dump_dir', default='result/dump_learning_rotation_so3', help='dump folder path [dump]')
+parser.add_argument('--model_path', default='result/log_learning_rotation_mix_model_so3/best_model.ckpt', help='model checkpoint file path [default: log/model.ckpt]')
+parser.add_argument('--dump_dir', default='result/dump_learning_rotation_mix_model_so3', help='dump folder path [dump]')
 parser.add_argument('--visu', action='store_true', help='Whether to dump image for error case [default: False]')
 FLAGS = parser.parse_args()
 angle_cell = np.pi / 6

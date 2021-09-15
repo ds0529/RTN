@@ -25,8 +25,8 @@ parser.add_argument('--batch', type=int, default=12, help='Batch Size per GPU du
 parser.add_argument('--epoch', type=int, default=201, help='Epoch to run [default: 50]')
 parser.add_argument('--point_num', type=int, default=2048, help='Point Number [256/512/1024/2048]')
 parser.add_argument('--transformer_model', default='learning_rotation_nets_mix_model', help='Transformer model name: dgcnn [default: dgcnn]')
-parser.add_argument('--transformer_model_path', default='result/log_learning_rotation_so3/best_model.ckpt', help='transformer model checkpoint file path [default: log/model.ckpt]')
-parser.add_argument('--output_dir', type=str, default='result/log_rotation_pretrain_so3', help='Directory that stores all training logs and trained models')
+parser.add_argument('--transformer_model_path', default='result/log_learning_rotation_mix_model_so3/best_model.ckpt', help='transformer model checkpoint file path [default: log/model.ckpt]')
+parser.add_argument('--output_dir', type=str, default='result/log_rotation_pretrain_mix_model_dgcnn_so3', help='Directory that stores all training logs and trained models')
 parser.add_argument('--wd', type=float, default=0, help='Weight Decay [Default: 0.0]')
 FLAGS = parser.parse_args()
 

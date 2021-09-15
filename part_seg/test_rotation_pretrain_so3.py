@@ -16,9 +16,9 @@ import part_seg_model as model
 parser = argparse.ArgumentParser()
 parser.add_argument('--data_path', default='/mnt/dengshuang/data/shapenet50', help='data path')
 parser.add_argument('--transformer_model', default='learning_rotation_nets_mix_model', help='Transformer model name: dgcnn [default: dgcnn]')
-parser.add_argument('--transformer_model_path', default='result/log_learning_rotation_so3/best_model.ckpt', help='transformer model checkpoint file path [default: log/model.ckpt]')
-parser.add_argument('--model_path', default='result/log_rotation_pretrain_so3/trained_models/epoch_200.ckpt', help='Model checkpoint path')
-parser.add_argument('--dump_dir', default='result/dump_rotation_pretrain_so3', help='dump folder path [dump]')
+parser.add_argument('--transformer_model_path', default='result/log_learning_rotation_mix_model_so3/best_model.ckpt', help='transformer model checkpoint file path [default: log/model.ckpt]')
+parser.add_argument('--model_path', default='result/log_rotation_pretrain_mix_model_dgcnn_so3/trained_models/epoch_200.ckpt', help='Model checkpoint path')
+parser.add_argument('--dump_dir', default='result/dump_rotation_pretrain_mix_model_dgcnn_so3', help='dump folder path [dump]')
 FLAGS = parser.parse_args()
 not_origin = 1
 
