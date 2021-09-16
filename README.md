@@ -10,7 +10,7 @@ This repository is the author's re-implementation of RTN. Extensive experimental
 
 <img src='./misc/architecture.png' width=1321 alt="architexture">
 
-Further information please contact [Shuang Deng](https://ds0529.github.io/).
+Further information please contact [Shuang Deng](https://ds0529.github.io/) and [Qiulei Dong](http://vision.ia.ac.cn/Faculty/qldong/index.htm).
 
 ### Citation
 
