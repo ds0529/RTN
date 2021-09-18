@@ -38,7 +38,7 @@ cd align_modelnet
 python data_prepare.py
 ```
 
-, and put the generated folder `aligned_modelnet40_ply_hdf5_2048` to `$your_data_folder`
+, and put the generated folder `aligned_modelnet40_ply_hdf5_2048` to `$your_data_folder`.
 
 ### Train
 
